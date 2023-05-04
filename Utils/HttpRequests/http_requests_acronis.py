@@ -33,6 +33,17 @@ class AcronisHttpRequests(BaseHttpRequests):
         return response.json()
 
     @staticmethod
+    def http_get_request_without_token(base_url, url_suffix=''):
+        response = requests.get(
+            url=base_url + url_suffix
+            )
+        # headers = {'Authorization': 'token ' + AcronisHttpRequests.token_value}
+
+        # print('organization_domains=')
+        # print(response.json())
+        return response.json()
+
+    @staticmethod
     def http_post_request(base_url):
         response = requests.get(
             base_url + '/api/v1/users/organization-domains/?organization_id='
