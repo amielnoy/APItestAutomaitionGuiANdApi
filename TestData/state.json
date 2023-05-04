@@ -1,0 +1,196 @@
+{
+  "cookies": [
+    {
+      "name": "_csrf",
+      "value": "UCgzEszD1V_yC9cbkrTBFDRz",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/usernamepassword/login",
+      "expires": 1671105705.053445,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3A943ad9a0-7494-11ed-9ce9-ad3993a83da1.RRlTUSWSgCv21G2niOZuJAopU6w9RhrUONYGNih1Beg",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1701799463.153498,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3A943ad9a0-7494-11ed-9ce9-ad3993a83da1.RRlTUSWSgCv21G2niOZuJAopU6w9RhrUONYGNih1Beg",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1701799300.426642,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3An-xUVGGq3Dgmdn9Fi9wYfGk5FSkifFav.dKhbb60t8U3qpOYUNkYfWpLXEjj02L8yLQAOyFB2BVk",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1670501063.153541,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3An-xUVGGq3Dgmdn9Fi9wYfGk5FSkifFav.dKhbb60t8U3qpOYUNkYfWpLXEjj02L8yLQAOyFB2BVk",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1670500907.838385,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_legacy_auth0.is.authenticated",
+      "value": "true",
+      "domain": "xray.testing.perception-point.io",
+      "path": "/",
+      "expires": 1670328253,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.is.authenticated",
+      "value": "true",
+      "domain": "xray.testing.perception-point.io",
+      "path": "/",
+      "expires": 1670328253,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DocumentationCenterHref",
+      "value": "https://docs.perception-point.io/WP/Content/PP/Home.htm",
+      "domain": ".perception-point.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fw_crm_v",
+      "value": "aff600e8-90e6-4634-e074-47c5731e1a42",
+      "domain": ".xray.testing.perception-point.io",
+      "path": "/",
+      "expires": 1701777857,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "BearerToken",
+      "value": "CAlVNK6T8CeNUGHqwLVoC4tghki7ZAiY2D9AXfbteYpxFdXOd1e_jPO1brzZ4qj7j-R8x6QsnRO1V_G89UBFXK8zwPN93-tuW6buSiwwRBIpb6P3PoljRukQ3HvxK9erlhgG1wVAwWm0tXf-uad66UUkUMzOK03cuqAtnXdcZ54xzVAhiXIOpzqgvn9l_hH1hPh1H49-6mz5vdlIK2e7zkjKV0bcWIrL9gMl9ghM1iTov3yhw91z68YAzk0BQ3m0fsgBxXvWYpunB-Rm0s677HyfKzFsgquge8GwMrYoD_QHmxGA8GP5VX-gep7l98rP6C8jhlhybWXsoKJFc7dKZjlucNyeuFrudM1tUg-84GD8vXOQiv3DVFcD7pA8NIDCADUmtEbi8MTxqXMXA6M8Osyjh8fZUtpLvILE74824Gq_-b4eNtN-f4I2WL33P10UqhQh3Gg3u_XpXFGPFltCTRZP6iEqMcNkyiQfbiwbu2B6Jy_E-jT04qKk-0RkU_V3kmaEyq5dLmFCAc-abzIJq0I_8ZNRzOpEAOV-IfQlV7g12km3k8PxowC-I0bXda7m3pbEFg0xCeZtvBBbDetWdhHo2UUlPsqpqlc7PQoKtVYM750IEguRi5P4pXw2Tp0KFykzXw",
+      "domain": ".perception-point.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "ymUQR0W1/bfiCdCuFVd9IbsAbvoLxQNlyyO9ZSE92hARURfSLnTNI/mm6c5PGSSNi4clME/n1l29+LM7zxODI6EO57oxzKvpap0yFcCRHwJet3ykw1ptrJFCO8Eu",
+      "domain": "analytex.userpilot.io",
+      "path": "/",
+      "expires": 1670846660.317739,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://xray.testing.perception-point.io",
+      "localStorage": [
+        {
+          "name": "TopAggregationsUserPreferences",
+          "value": "{}"
+        },
+        {
+          "name": "userpilotSettings",
+          "value": "{\"endpoint\":\"wss://analytex.userpilot.io/v0/events/websocket\",\"date\":1670241859147}"
+        },
+        {
+          "name": "TopFiltersUserPreferences",
+          "value": "{}"
+        },
+        {
+          "name": "f192e87a-255f-4f5a-8bea-00a09324b2ea",
+          "value": "{\"isUserCreateSent\":false,\"lastActivitySent\":\"2022-12-05T12:01:59.152Z\",\"subDomainName\":\"httpsxrayperception-pointio\"}"
+        },
+        {
+          "name": "userpilotUser",
+          "value": "{\"token\":\"10qo41j6\",\"version\":\"0.915\",\"endpoint\":\"api.userpilot.io/socket/\",\"domain\":\"js.userpilot.io\",\"continuity\":0,\"accessibility\":1,\"customer\":{\"name\":\"Amiel Peled\",\"email\":\"amiel.peled+automation@perception-point.io\",\"permissions\":\"edit_restricted_files,edit_protected_users,setup_automatic_onboarding,view_emails,get_sample_app_info,Analyze,edit_settings,can_view_audit_logs,get_sample_app_location,view_restricted_files,View Drive Files,view_docs,View Dashboard,download_attachments,edit_whitelist_blacklist,view_support_ticket,change_verdict,View Emails,view_protected_users,View Analyze & API,View Docs,change_logentry,scan_actions,view_drive_files,Scan Actions,view_scans,view_account_takeover,Edit Settings,view_settings,View Settings,view_analyze_and_api,can_view_scan_history,view_dashboard\",\"featureToggles\":\"scan_automation_test_results,display_similar_scans_for_any_group_size,scan_actions_generate_test,ip_list_page,scan_screenshot_full_size_preview,scan_email_preview_dynamic_size,edit_highlight,auto_approve_rules,account_events_page,scan_use_search_descendants,collaboration_ato_integration,ato_change_severity_feature,ato_resolve_event_dialog,guidde_integration,attachments_names,attachments_names_column,complete_your_configuration_window,freshdesk_integration,account_events_expand_row,ir_fn_reason,automatic_script,scan_history,audit_logs,mandatory_attack_type_on_change_verdict,enable_localization,cases_page,enable_reports,case_expand_row,filters_top_matches_config,scan_statistic,bar_chart,radar_chart,case_history,validate_next_smtp_servers,aggregations_top_matches_config,cases_filters_top_matches,onboarding_restructured_flow,multi_region_restructured,case_bulk_actions,new_scan_history,file_hash_top_matches,domain_top_matches,api_scanning,insights_restructured,ir_dashboard\",\"company\":{\"id\":7933,\"name\":\"amiel.noyfeld\"},\"browser_language\":\"en-GB\",\"browser\":\"Chrome - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"device_type\":\"Desktop\",\"os\":\"Linux\",\"host name\":\"xray.testing.perception-point.io\",\"last_seen\":1},\"userid\":\"10289\",\"auto\":{\"viewport_width\":1280,\"viewport_height\":720,\"browser_language\":\"en-GB\",\"browser\":\"Chrome - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\",\"device_type\":\"Desktop\",\"os\":\"Linux\",\"host name\":\"xray.testing.perception-point.io\"}}"
+        },
+        {
+          "name": "browser-tabs-lock-key-auth0.lock.getTokenSilently",
+          "value": "{\"id\":\"1670241862417drlyEN097XHvKCw\",\"iat\":\"1670241862485cGDa\",\"timeoutKey\":\"1670241862417drlyEN097XHvKCw-auth0.lock.getTokenSilently-1670241862485cGDa\",\"timeAcquired\":1670241862551,\"timeRefreshed\":1670241862551}"
+        },
+        {
+          "name": "filters_/scans/",
+          "value": "dateTimeRange=preset-lastDay&verdict=VOID"
+        },
+        {
+          "name": "{announcekit}:7607",
+          "value": "{\"$source\":\"localstorage\"}"
+        },
+        {
+          "name": "BULLET_TRAIN_DB",
+          "value": "{\"api\":\"https://api.flagsmith.com/api/v1/\",\"environmentID\":\"T79nEixbaEzjHrchskCdm4\",\"flags\":{\"scan_automation_test_results\":{\"id\":2643,\"enabled\":true,\"value\":null},\"display_similar_scans_for_any_group_size\":{\"id\":2744,\"enabled\":true,\"value\":null},\"shared_db_maintenance_mode\":{\"id\":2756,\"enabled\":false,\"value\":null},\"scan_actions_generate_test\":{\"id\":3859,\"enabled\":true,\"value\":null},\"show_hap_analysis_of_child\":{\"id\":7576,\"enabled\":false,\"value\":null},\"ip_list_page\":{\"id\":8744,\"enabled\":true,\"value\":null},\"scan_screenshot_full_size_preview\":{\"id\":9069,\"enabled\":true,\"value\":\"75%\"},\"scan_email_preview_dynamic_size\":{\"id\":9292,\"enabled\":true,\"value\":\"100%\"},\"edit_highlight\":{\"id\":10545,\"enabled\":true,\"value\":null},\"auto_approve_rules\":{\"id\":11082,\"enabled\":true,\"value\":null},\"account_events_page\":{\"id\":11246,\"enabled\":true,\"value\":null},\"scan_use_search_descendants\":{\"id\":11322,\"enabled\":true,\"value\":null},\"cancellation__database_update_requests\":{\"id\":11801,\"enabled\":false,\"value\":null},\"add_environment_id_to_similar_scan_link\":{\"id\":11835,\"enabled\":false,\"value\":null},\"collaboration_ato_integration\":{\"id\":11853,\"enabled\":true,\"value\":null},\"ato_change_severity_feature\":{\"id\":13395,\"enabled\":true,\"value\":null},\"ato_resolve_event_dialog\":{\"id\":13538,\"enabled\":true,\"value\":null},\"insights_simulation_count\":{\"id\":15030,\"enabled\":false,\"value\":null},\"guidde_integration\":{\"id\":17203,\"enabled\":true,\"value\":null},\"attachments_names\":{\"id\":17298,\"enabled\":true,\"value\":null},\"attachments_names_column\":{\"id\":17708,\"enabled\":true,\"value\":\"\"},\"complete_your_configuration_window\":{\"id\":18381,\"enabled\":true,\"value\":null},\"freshdesk_integration\":{\"id\":18494,\"enabled\":true,\"value\":null},\"account_events_expand_row\":{\"id\":18696,\"enabled\":true,\"value\":\"\"},\"edit_multi_region_domain\":{\"id\":19249,\"enabled\":false,\"value\":null},\"ir_fn_reason\":{\"id\":19846,\"enabled\":true,\"value\":null},\"automatic_script\":{\"id\":20633,\"enabled\":true,\"value\":\"\"},\"scan_history\":{\"id\":20660,\"enabled\":true,\"value\":\"\"},\"audit_logs\":{\"id\":21566,\"enabled\":true,\"value\":null},\"mandatory_attack_type_on_change_verdict\":{\"id\":22323,\"enabled\":true,\"value\":null},\"enable_localization\":{\"id\":22418,\"enabled\":true,\"value\":null},\"hide_duplicate_sub_organization\":{\"id\":22668,\"enabled\":false,\"value\":null},\"cases_page\":{\"id\":22809,\"enabled\":true,\"value\":\"\"},\"enable_reports\":{\"id\":22982,\"enabled\":true,\"value\":\"\"},\"enable_localization_page\":{\"id\":22987,\"enabled\":false,\"value\":null},\"case_expand_row\":{\"id\":23376,\"enabled\":true,\"value\":\"\"},\"call_from_child_environments\":{\"id\":23399,\"enabled\":false,\"value\":null},\"filters_top_matches_config\":{\"id\":25432,\"enabled\":true,\"value\":null},\"scan_statistic\":{\"id\":25652,\"enabled\":true,\"value\":null},\"bar_chart\":{\"id\":26428,\"enabled\":true,\"value\":null},\"radar_chart\":{\"id\":26429,\"enabled\":true,\"value\":null},\"case_history\":{\"id\":26470,\"enabled\":true,\"value\":null},\"validate_next_smtp_servers\":{\"id\":26733,\"enabled\":true,\"value\":null},\"aggregations_top_matches_config\":{\"id\":27779,\"enabled\":true,\"value\":null},\"cases_filters_top_matches\":{\"id\":27923,\"enabled\":true,\"value\":null},\"restricted_file_types\":{\"id\":27945,\"enabled\":false,\"value\":null},\"end_user_page\":{\"id\":28156,\"enabled\":false,\"value\":null},\"email_service_wizard_allow_venom\":{\"id\":28369,\"enabled\":false,\"value\":null},\"onboarding_restructured_flow\":{\"id\":28677,\"enabled\":true,\"value\":null},\"multi_region_restructured\":{\"id\":29585,\"enabled\":true,\"value\":\"\"},\"case_bulk_actions\":{\"id\":30115,\"enabled\":true,\"value\":null},\"new_scan_history\":{\"id\":30906,\"enabled\":true,\"value\":null},\"file_hash_top_matches\":{\"id\":31232,\"enabled\":true,\"value\":null},\"domain_top_matches\":{\"id\":31233,\"enabled\":true,\"value\":null},\"api_scanning\":{\"id\":32323,\"enabled\":true,\"value\":null},\"insights_restructured\":{\"id\":33324,\"enabled\":true,\"value\":null},\"ir_dashboard\":{\"id\":33570,\"enabled\":true,\"value\":null}},\"identity\":\"7933___amiel.noyfeld\",\"traits\":{},\"evaluationEvent\":{}}"
+        },
+        {
+          "name": "userpilotRecorder",
+          "value": "0"
+        },
+        {
+          "name": "userpilotSDK",
+          "value": "{\"userpilot-009is\":1,\"running-freq\":3,\"userpilotStartTutorial\":9,\"old_link\":\"https://xray.testing.perception-point.io/scans/?dateTimeRange=preset-lastDay&freeText=password.html&verdict=VOID\"}"
+        }
+      ]
+    },
+    {
+      "origin": "https://bjv1b6q2npkz.statuspage.io",
+      "localStorage": [
+        {
+          "name": "bjv1b6q2npkz.statuspage.io_dismissed",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "origin": "https://announcekit.app",
+      "localStorage": [
+        {
+          "name": "beacon_sid",
+          "value": "d04b79fdd3a3e8b0e20c2fcc26f5b07a"
+        }
+      ]
+    },
+    {
+      "origin": "https://wchat.freshchat.com",
+      "localStorage": [
+        {
+          "name": "debug",
+          "value": "undefined"
+        },
+        {
+          "name": "f192e87a-255f-4f5a-8bea-00a09324b2ea",
+          "value": "{\"isUserCreateSent\":false,\"lastActivitySent\":\"2022-12-05T12:01:59.152Z\",\"subDomainName\":\"httpsxrayperception-pointio\"}"
+        }
+      ]
+    }
+  ]
+}

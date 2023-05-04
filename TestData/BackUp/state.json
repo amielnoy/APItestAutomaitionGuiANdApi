@@ -1,0 +1,271 @@
+{
+  "cookies": [
+    {
+      "name": "_csrf",
+      "value": "z5Z39m7stcibjRElWtuKspj1",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/usernamepassword/login",
+      "expires": 1669537653.893301,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3Aaf0f6800-6651-11ed-9afe-bd591e2dfb14.Y3Zb7NxJA4Eo5PeUWrGAZ0e2bmitbYzcQODPWIbSH0U",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1700241716.085172,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3Aaf0f6800-6651-11ed-9afe-bd591e2dfb14.Y3Zb7NxJA4Eo5PeUWrGAZ0e2bmitbYzcQODPWIbSH0U",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1700231253.537537,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_legacy_auth0.is.authenticated",
+      "value": "true",
+      "domain": "xray.testing.perception-point.io",
+      "path": "/",
+      "expires": 1668761042,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.is.authenticated",
+      "value": "true",
+      "domain": "xray.testing.perception-point.io",
+      "path": "/",
+      "expires": 1668761042,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DocumentationCenterHref",
+      "value": "https://docs.perception-point.io/WP/Content/PP/Home.htm",
+      "domain": ".perception-point.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fw_crm_v",
+      "value": "137b5609-9e52-4b45-b7ea-70f2ca95e601",
+      "domain": ".xray.testing.perception-point.io",
+      "path": "/",
+      "expires": 1700210652,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3AUKoqCupIVFV71t6ptCBSuJt_kktcEF28.YrCekgRWkmDdSs4qdlZnfh3lzlwNvFW1PHqz2SDcO1A",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1668943315.085293,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3AUKoqCupIVFV71t6ptCBSuJt_kktcEF28.YrCekgRWkmDdSs4qdlZnfh3lzlwNvFW1PHqz2SDcO1A",
+      "domain": "dev--9htf-46.us.auth0.com",
+      "path": "/",
+      "expires": 1668932936.989375,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_legacy_auth0.is.authenticated",
+      "value": "true",
+      "domain": "acronis.testing.perception-point.io",
+      "path": "/",
+      "expires": 1668770516,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.is.authenticated",
+      "value": "true",
+      "domain": "acronis.testing.perception-point.io",
+      "path": "/",
+      "expires": 1668770516,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_fw_crm_v",
+      "value": "4e6a738f-fb7a-4c04-c66c-ca1651965fd4",
+      "domain": ".acronis.testing.perception-point.io",
+      "path": "/",
+      "expires": 1700220123,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "BearerToken",
+      "value": "5NAMo8A9B9FyN0ya479dp0-xgLWmneXyKfHdG4QZyyV9FhUq02VOtbtyrMx25hKC9HKhFxdFC1ORwz0MqhhnvanQ0wN9mj75wfeXWjUolD7e3mK_3Ug6fzJbxYRZyr7VmhV8nJPnDgbpLUgN48ZaIQcdWf_xJ5FLcdXt8y3M2cxUq3Enx5H_czyuMF2qi6Bn2FB6usE-ew-_uPJU4_CQK6SOiiV7YFY8Td8zrG8Oyex4FQo-pSZmAdD83KJois4EntP9LqxPxZfILRbBLSuMwMRNc6w79G73c-TMGECa7F0a7gmz1u8T-t-DEdv-qo1_weDqtwXo_NLDSmoODMOFnbq3U5Fdp4T6B9fouDQIKO5y2PRMaJ7D3XgwtQz5EhEpgA3iNH4gmPblqrA7zwUciRRXyzcJEoa4E3gywsxa4RcVtmIkevkvQd-Qs7193Q8Z2ahWL5tJ-rIXKJx3_ji76N1NrvgaObr88Paw_cAgpaLlVtPSiFaSCKaIcXzcHCmtyphyw8ocgyOMP41CtO1krAUK8LPxZ8yuMM9142v-vUjnl-a_2gHziNGh0K4WZ_v7Hd21mej_hw9WprwPyOWp6vGkpM7sanMCmbZcmgbN5d48ZQsrxLtFwE00uHKR8e9ZmDV2dw",
+      "domain": ".perception-point.io",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "LWjc53hATd+k51KkHFgFhcILM0zqRX8zux2jG5+Ecx6ZEThg2jv0WVzAZp7c1taUgQ0wiMU2zZ+I7xzUo5gmOb7VZm8HqJPGqjTJyk0eDir122GU0mGAdzAeKLTO",
+      "domain": "analytex.userpilot.io",
+      "path": "/",
+      "expires": 1669288925.861218,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://xray.testing.perception-point.io",
+      "localStorage": [
+        {
+          "name": "TopAggregationsUserPreferences",
+          "value": "{}"
+        },
+        {
+          "name": "userpilotSettings",
+          "value": "{\"endpoint\":\"wss://analytex.userpilot.io/v0/events/websocket\",\"date\":1668674655214}"
+        },
+        {
+          "name": "TopFiltersUserPreferences",
+          "value": "{}"
+        },
+        {
+          "name": "f192e87a-255f-4f5a-8bea-00a09324b2ea",
+          "value": "{\"isUserCreateSent\":false,\"lastActivitySent\":\"2022-11-17T08:27:49.217Z\",\"subDomainName\":\"httpsxrayperception-pointio\"}"
+        },
+        {
+          "name": "userpilotUser",
+          "value": "{\"token\":\"10qo41j6\",\"version\":\"0.895\",\"endpoint\":\"api.userpilot.io/socket/\",\"domain\":\"js.userpilot.io\",\"continuity\":0,\"accessibility\":1,\"customer\":{\"name\":\"Amiel Peled\",\"email\":\"amiel.peled+automation@perception-point.io\",\"permissions\":\"view_dashboard,Scan Actions,download_attachments,change_logentry,get_sample_app_info,edit_settings,can_view_scan_history,Analyze,view_protected_users,view_account_takeover,View Analyze & API,view_restricted_files,View Drive Files,view_settings,View Dashboard,can_view_audit_logs,View Emails,change_verdict,view_support_ticket,View Settings,view_drive_files,view_emails,Edit Settings,scan_actions,edit_restricted_files,view_docs,get_sample_app_location,view_analyze_and_api,View Docs,view_scans,edit_protected_users,edit_whitelist_blacklist,setup_automatic_onboarding\",\"featureToggles\":\"scan_automation_test_results,display_similar_scans_for_any_group_size,scan_actions_generate_test,ip_list_page,scan_screenshot_full_size_preview,scan_email_preview_dynamic_size,edit_highlight,auto_approve_rules,account_events_page,scan_use_search_descendants,collaboration_ato_integration,ato_change_severity_feature,ato_resolve_event_dialog,insights_simulation_count,guidde_integration,attachments_names,attachments_names_column,complete_your_configuration_window,freshdesk_integration,account_events_expand_row,ir_fn_reason,automatic_script,scan_history,audit_logs,mandatory_attack_type_on_change_verdict,enable_localization,cases_page,enable_reports,case_expand_row,filters_top_matches_config,scan_statistic,bar_chart,radar_chart,case_history,validate_next_smtp_servers,aggregations_top_matches_config,cases_filters_top_matches,restricted_file_types,onboarding_restructured_flow,multi_region_restructured,case_bulk_actions,new_scan_history,file_hash_top_matches,domain_top_matches,api_scanning\",\"company\":{\"id\":7933,\"name\":\"amiel.noyfeld\"},\"browser_language\":\"en-GB\",\"browser\":\"Chrome - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\",\"device_type\":\"Desktop\",\"os\":\"Linux\",\"host name\":\"xray.testing.perception-point.io\",\"last_seen\":1},\"userid\":\"10289\",\"auto\":{\"viewport_width\":1280,\"viewport_height\":720,\"browser_language\":\"en-GB\",\"browser\":\"Chrome - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\",\"device_type\":\"Desktop\",\"os\":\"Linux\",\"host name\":\"xray.testing.perception-point.io\"}}"
+        },
+        {
+          "name": "filters_/scans/",
+          "value": "dateTimeRange=preset-lastDay&origin=api%7Canalyze&verdict=VOID"
+        },
+        {
+          "name": "{announcekit}:7607",
+          "value": "{\"$source\":\"localstorage\"}"
+        },
+        {
+          "name": "BULLET_TRAIN_DB",
+          "value": "{\"api\":\"https://api.flagsmith.com/api/v1/\",\"environmentID\":\"T79nEixbaEzjHrchskCdm4\",\"flags\":{\"scan_automation_test_results\":{\"id\":2643,\"enabled\":true,\"value\":null},\"display_similar_scans_for_any_group_size\":{\"id\":2744,\"enabled\":true,\"value\":null},\"shared_db_maintenance_mode\":{\"id\":2756,\"enabled\":false,\"value\":null},\"scan_actions_generate_test\":{\"id\":3859,\"enabled\":true,\"value\":null},\"show_hap_analysis_of_child\":{\"id\":7576,\"enabled\":false,\"value\":null},\"ip_list_page\":{\"id\":8744,\"enabled\":true,\"value\":null},\"scan_screenshot_full_size_preview\":{\"id\":9069,\"enabled\":true,\"value\":\"75%\"},\"scan_email_preview_dynamic_size\":{\"id\":9292,\"enabled\":true,\"value\":\"100%\"},\"edit_highlight\":{\"id\":10545,\"enabled\":true,\"value\":null},\"auto_approve_rules\":{\"id\":11082,\"enabled\":true,\"value\":null},\"account_events_page\":{\"id\":11246,\"enabled\":true,\"value\":null},\"scan_use_search_descendants\":{\"id\":11322,\"enabled\":true,\"value\":null},\"cancellation__database_update_requests\":{\"id\":11801,\"enabled\":false,\"value\":null},\"add_environment_id_to_similar_scan_link\":{\"id\":11835,\"enabled\":false,\"value\":null},\"collaboration_ato_integration\":{\"id\":11853,\"enabled\":true,\"value\":null},\"ato_change_severity_feature\":{\"id\":13395,\"enabled\":true,\"value\":null},\"ato_resolve_event_dialog\":{\"id\":13538,\"enabled\":true,\"value\":null},\"insights_simulation_count\":{\"id\":15030,\"enabled\":true,\"value\":null},\"guidde_integration\":{\"id\":17203,\"enabled\":true,\"value\":null},\"attachments_names\":{\"id\":17298,\"enabled\":true,\"value\":null},\"attachments_names_column\":{\"id\":17708,\"enabled\":true,\"value\":\"\"},\"complete_your_configuration_window\":{\"id\":18381,\"enabled\":true,\"value\":null},\"freshdesk_integration\":{\"id\":18494,\"enabled\":true,\"value\":null},\"account_events_expand_row\":{\"id\":18696,\"enabled\":true,\"value\":\"\"},\"edit_multi_region_domain\":{\"id\":19249,\"enabled\":false,\"value\":null},\"ir_fn_reason\":{\"id\":19846,\"enabled\":true,\"value\":null},\"automatic_script\":{\"id\":20633,\"enabled\":true,\"value\":\"\"},\"scan_history\":{\"id\":20660,\"enabled\":true,\"value\":\"\"},\"audit_logs\":{\"id\":21566,\"enabled\":true,\"value\":null},\"mandatory_attack_type_on_change_verdict\":{\"id\":22323,\"enabled\":true,\"value\":null},\"enable_localization\":{\"id\":22418,\"enabled\":true,\"value\":null},\"hide_duplicate_sub_organization\":{\"id\":22668,\"enabled\":false,\"value\":null},\"cases_page\":{\"id\":22809,\"enabled\":true,\"value\":\"\"},\"enable_reports\":{\"id\":22982,\"enabled\":true,\"value\":\"\"},\"enable_localization_page\":{\"id\":22987,\"enabled\":false,\"value\":null},\"case_expand_row\":{\"id\":23376,\"enabled\":true,\"value\":\"\"},\"call_from_child_environments\":{\"id\":23399,\"enabled\":false,\"value\":null},\"filters_top_matches_config\":{\"id\":25432,\"enabled\":true,\"value\":null},\"scan_statistic\":{\"id\":25652,\"enabled\":true,\"value\":null},\"bar_chart\":{\"id\":26428,\"enabled\":true,\"value\":null},\"radar_chart\":{\"id\":26429,\"enabled\":true,\"value\":null},\"case_history\":{\"id\":26470,\"enabled\":true,\"value\":null},\"validate_next_smtp_servers\":{\"id\":26733,\"enabled\":true,\"value\":null},\"aggregations_top_matches_config\":{\"id\":27779,\"enabled\":true,\"value\":null},\"cases_filters_top_matches\":{\"id\":27923,\"enabled\":true,\"value\":null},\"restricted_file_types\":{\"id\":27945,\"enabled\":true,\"value\":null},\"end_user_page\":{\"id\":28156,\"enabled\":false,\"value\":null},\"email_service_wizard_allow_venom\":{\"id\":28369,\"enabled\":false,\"value\":null},\"onboarding_restructured_flow\":{\"id\":28677,\"enabled\":true,\"value\":null},\"multi_region_restructured\":{\"id\":29585,\"enabled\":true,\"value\":\"\"},\"case_bulk_actions\":{\"id\":30115,\"enabled\":true,\"value\":null},\"new_scan_history\":{\"id\":30906,\"enabled\":true,\"value\":null},\"file_hash_top_matches\":{\"id\":31232,\"enabled\":true,\"value\":null},\"domain_top_matches\":{\"id\":31233,\"enabled\":true,\"value\":null},\"api_scanning\":{\"id\":32323,\"enabled\":true,\"value\":null}},\"identity\":\"7933___amiel.noyfeld\",\"traits\":{},\"evaluationEvent\":{}}"
+        },
+        {
+          "name": "userpilotRecorder",
+          "value": "0"
+        },
+        {
+          "name": "userpilotSDK",
+          "value": "{\"userpilot-009is\":1,\"running-freq\":3,\"userpilotStartTutorial\":9,\"old_link\":\"https://xray.testing.perception-point.io/settings/detection\"}"
+        }
+      ]
+    },
+    {
+      "origin": "https://bjv1b6q2npkz.statuspage.io",
+      "localStorage": [
+        {
+          "name": "bjv1b6q2npkz.statuspage.io_dismissed",
+          "value": "[]"
+        }
+      ]
+    },
+    {
+      "origin": "https://announcekit.app",
+      "localStorage": [
+        {
+          "name": "beacon_sid",
+          "value": "942000957d3f060167e598d7b4a903b2"
+        }
+      ]
+    },
+    {
+      "origin": "https://wchat.freshchat.com",
+      "localStorage": [
+        {
+          "name": "debug",
+          "value": "undefined"
+        },
+        {
+          "name": "f192e87a-255f-4f5a-8bea-00a09324b2ea",
+          "value": "{\"isUserCreateSent\":false,\"lastActivitySent\":\"2022-11-17T08:27:49.217Z\",\"subDomainName\":\"httpsxrayperception-pointio\"}"
+        },
+        {
+          "name": "hop-f192e87a-255f-4f5a-8bea-00a09324b2ea",
+          "value": "{\"hop\":\"1668684125761\"}"
+        }
+      ]
+    },
+    {
+      "origin": "https://acronis.testing.perception-point.io",
+      "localStorage": [
+        {
+          "name": "TopAggregationsUserPreferences",
+          "value": "{}"
+        },
+        {
+          "name": "userpilotSettings",
+          "value": "{\"endpoint\":\"wss://analytex.userpilot.io/v0/events/websocket\",\"date\":1668684124555}"
+        },
+        {
+          "name": "TopFiltersUserPreferences",
+          "value": "{}"
+        },
+        {
+          "name": "f192e87a-255f-4f5a-8bea-00a09324b2ea",
+          "value": "{\"isUserCreateSent\":false,\"lastActivitySent\":\"2022-11-17T08:27:49.217Z\",\"subDomainName\":\"httpsxrayperception-pointio\"}"
+        },
+        {
+          "name": "userpilotUser",
+          "value": "{\"token\":\"10qo41j6\",\"version\":\"0.895\",\"endpoint\":\"api.userpilot.io/socket/\",\"domain\":\"js.userpilot.io\",\"continuity\":0,\"accessibility\":1,\"customer\":{\"name\":\"Amiel Peled\",\"email\":\"amiel.peled+automation@perception-point.io\",\"permissions\":\"view_dashboard,Scan Actions,download_attachments,change_logentry,get_sample_app_info,edit_settings,can_view_scan_history,Analyze,view_protected_users,view_account_takeover,View Analyze & API,view_restricted_files,View Drive Files,view_settings,View Dashboard,can_view_audit_logs,View Emails,change_verdict,view_support_ticket,View Settings,view_drive_files,view_emails,Edit Settings,scan_actions,edit_restricted_files,view_docs,get_sample_app_location,view_analyze_and_api,View Docs,view_scans,edit_protected_users,edit_whitelist_blacklist,setup_automatic_onboarding\",\"featureToggles\":\"scan_automation_test_results,display_similar_scans_for_any_group_size,scan_actions_generate_test,ip_list_page,scan_screenshot_full_size_preview,scan_email_preview_dynamic_size,edit_highlight,auto_approve_rules,account_events_page,scan_use_search_descendants,collaboration_ato_integration,ato_change_severity_feature,ato_resolve_event_dialog,insights_simulation_count,guidde_integration,attachments_names,attachments_names_column,complete_your_configuration_window,freshdesk_integration,account_events_expand_row,ir_fn_reason,automatic_script,scan_history,audit_logs,mandatory_attack_type_on_change_verdict,enable_localization,cases_page,enable_reports,case_expand_row,filters_top_matches_config,scan_statistic,bar_chart,radar_chart,case_history,validate_next_smtp_servers,aggregations_top_matches_config,cases_filters_top_matches,restricted_file_types,onboarding_restructured_flow,multi_region_restructured,case_bulk_actions,new_scan_history,file_hash_top_matches,domain_top_matches,api_scanning\",\"company\":{\"id\":7933,\"name\":\"amiel.noyfeld\"},\"browser_language\":\"en-GB\",\"browser\":\"Chrome - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\",\"device_type\":\"Desktop\",\"os\":\"Linux\",\"host name\":\"acronis.testing.perception-point.io\",\"last_seen\":1},\"userid\":\"10289\",\"auto\":{\"viewport_width\":1280,\"viewport_height\":720,\"browser_language\":\"en-GB\",\"browser\":\"Chrome - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\",\"device_type\":\"Desktop\",\"os\":\"Linux\",\"host name\":\"acronis.testing.perception-point.io\"}}"
+        },
+        {
+          "name": "filters_/scans/",
+          "value": "dateTimeRange=preset-lastDay&origin=api%7Canalyze&verdict=VOID"
+        },
+        {
+          "name": "{announcekit}:7607",
+          "value": "{\"$source\":\"localstorage\"}"
+        },
+        {
+          "name": "BULLET_TRAIN_DB",
+          "value": "{\"api\":\"https://api.flagsmith.com/api/v1/\",\"environmentID\":\"T79nEixbaEzjHrchskCdm4\",\"flags\":{\"scan_automation_test_results\":{\"id\":2643,\"enabled\":true,\"value\":null},\"display_similar_scans_for_any_group_size\":{\"id\":2744,\"enabled\":true,\"value\":null},\"shared_db_maintenance_mode\":{\"id\":2756,\"enabled\":false,\"value\":null},\"scan_actions_generate_test\":{\"id\":3859,\"enabled\":true,\"value\":null},\"show_hap_analysis_of_child\":{\"id\":7576,\"enabled\":false,\"value\":null},\"ip_list_page\":{\"id\":8744,\"enabled\":true,\"value\":null},\"scan_screenshot_full_size_preview\":{\"id\":9069,\"enabled\":true,\"value\":\"75%\"},\"scan_email_preview_dynamic_size\":{\"id\":9292,\"enabled\":true,\"value\":\"100%\"},\"edit_highlight\":{\"id\":10545,\"enabled\":true,\"value\":null},\"auto_approve_rules\":{\"id\":11082,\"enabled\":true,\"value\":null},\"account_events_page\":{\"id\":11246,\"enabled\":true,\"value\":null},\"scan_use_search_descendants\":{\"id\":11322,\"enabled\":true,\"value\":null},\"cancellation__database_update_requests\":{\"id\":11801,\"enabled\":false,\"value\":null},\"add_environment_id_to_similar_scan_link\":{\"id\":11835,\"enabled\":false,\"value\":null},\"collaboration_ato_integration\":{\"id\":11853,\"enabled\":true,\"value\":null},\"ato_change_severity_feature\":{\"id\":13395,\"enabled\":true,\"value\":null},\"ato_resolve_event_dialog\":{\"id\":13538,\"enabled\":true,\"value\":null},\"insights_simulation_count\":{\"id\":15030,\"enabled\":true,\"value\":null},\"guidde_integration\":{\"id\":17203,\"enabled\":true,\"value\":null},\"attachments_names\":{\"id\":17298,\"enabled\":true,\"value\":null},\"attachments_names_column\":{\"id\":17708,\"enabled\":true,\"value\":\"\"},\"complete_your_configuration_window\":{\"id\":18381,\"enabled\":true,\"value\":null},\"freshdesk_integration\":{\"id\":18494,\"enabled\":true,\"value\":null},\"account_events_expand_row\":{\"id\":18696,\"enabled\":true,\"value\":\"\"},\"edit_multi_region_domain\":{\"id\":19249,\"enabled\":false,\"value\":null},\"ir_fn_reason\":{\"id\":19846,\"enabled\":true,\"value\":null},\"automatic_script\":{\"id\":20633,\"enabled\":true,\"value\":\"\"},\"scan_history\":{\"id\":20660,\"enabled\":true,\"value\":\"\"},\"audit_logs\":{\"id\":21566,\"enabled\":true,\"value\":null},\"mandatory_attack_type_on_change_verdict\":{\"id\":22323,\"enabled\":true,\"value\":null},\"enable_localization\":{\"id\":22418,\"enabled\":true,\"value\":null},\"hide_duplicate_sub_organization\":{\"id\":22668,\"enabled\":false,\"value\":null},\"cases_page\":{\"id\":22809,\"enabled\":true,\"value\":\"\"},\"enable_reports\":{\"id\":22982,\"enabled\":true,\"value\":\"\"},\"enable_localization_page\":{\"id\":22987,\"enabled\":false,\"value\":null},\"case_expand_row\":{\"id\":23376,\"enabled\":true,\"value\":\"\"},\"call_from_child_environments\":{\"id\":23399,\"enabled\":false,\"value\":null},\"filters_top_matches_config\":{\"id\":25432,\"enabled\":true,\"value\":null},\"scan_statistic\":{\"id\":25652,\"enabled\":true,\"value\":null},\"bar_chart\":{\"id\":26428,\"enabled\":true,\"value\":null},\"radar_chart\":{\"id\":26429,\"enabled\":true,\"value\":null},\"case_history\":{\"id\":26470,\"enabled\":true,\"value\":null},\"validate_next_smtp_servers\":{\"id\":26733,\"enabled\":true,\"value\":null},\"aggregations_top_matches_config\":{\"id\":27779,\"enabled\":true,\"value\":null},\"cases_filters_top_matches\":{\"id\":27923,\"enabled\":true,\"value\":null},\"restricted_file_types\":{\"id\":27945,\"enabled\":true,\"value\":null},\"end_user_page\":{\"id\":28156,\"enabled\":false,\"value\":null},\"email_service_wizard_allow_venom\":{\"id\":28369,\"enabled\":false,\"value\":null},\"onboarding_restructured_flow\":{\"id\":28677,\"enabled\":true,\"value\":null},\"multi_region_restructured\":{\"id\":29585,\"enabled\":true,\"value\":\"\"},\"case_bulk_actions\":{\"id\":30115,\"enabled\":true,\"value\":null},\"new_scan_history\":{\"id\":30906,\"enabled\":true,\"value\":null},\"file_hash_top_matches\":{\"id\":31232,\"enabled\":true,\"value\":null},\"domain_top_matches\":{\"id\":31233,\"enabled\":true,\"value\":null},\"api_scanning\":{\"id\":32323,\"enabled\":true,\"value\":null}},\"identity\":\"7933___amiel.noyfeld\",\"traits\":{},\"evaluationEvent\":{}}"
+        },
+        {
+          "name": "userpilotRecorder",
+          "value": "0"
+        },
+        {
+          "name": "userpilotSDK",
+          "value": "{\"userpilot-009is\":1,\"running-freq\":3,\"userpilotStartTutorial\":9,\"old_link\":\"https://acronis.testing.perception-point.io/insights\"}"
+        }
+      ]
+    }
+  ]
+}

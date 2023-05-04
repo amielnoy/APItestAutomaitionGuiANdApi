@@ -1,0 +1,514 @@
+2022-12-04 10:47:53,410 - logManager - INFO - **********************************************************************************
+2022-12-04 10:47:53,410 - logManager - INFO - **********************STARTING TEST**** test_acronis_self_anlyze_file_no_password**************************
+2022-12-04 10:47:53,410 - logManager - INFO - **********************************************************************************
+2022-12-04 10:47:53,680 - logManager - INFO - Navigating to login page=https://acronis.testing.perception-point.io/
+2022-12-04 10:47:53,681 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:48:00,584 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:48:00,584 - logManager - INFO - acronis_username=amiel.peled+acronis@perception-point.io, acronis_password=A1m2i3s4
+2022-12-04 10:48:00,584 - logManager - INFO - Started  login process user=amiel.peled+acronis@perception-point.io password=A1m2i3s4
+2022-12-04 10:48:01,632 - logManager - INFO - finished setting USERNAME=amiel.peled+acronis@perception-point.io
+2022-12-04 10:48:01,653 - logManager - INFO - finished setting PASSWORD=A1m2i3s4
+2022-12-04 10:48:01,653 - logManager - INFO - Started Clicking login button
+2022-12-04 10:48:01,696 - logManager - INFO - finished Clicking login button
+2022-12-04 10:48:01,696 - logManager - INFO - Finished login process(user+pass) Navigating to main page
+2022-12-04 10:48:10,334 - logManager - INFO - Start clicking  SELF ANALYZE on  main PAGE
+2022-12-04 10:48:10,417 - logManager - INFO - Finished Clicking  SELF ANALYZE menu item button on  main PAGE
+2022-12-04 10:48:10,423 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 10:48:10,450 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 10:48:10,455 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 10:48:13,255 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 10:48:13,261 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 10:48:15,596 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 10:48:15,603 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 10:48:17,665 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 10:48:17,671 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 10:48:19,662 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 10:48:19,669 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 10:48:21,663 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 10:48:21,668 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 10:48:24,265 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 10:49:31,423 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 10:49:31,662 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 10:49:31,668 - logManager - INFO - Started set file scan to search=mal.docx
+2022-12-04 10:49:31,687 - logManager - INFO - finished set file scan to search=mal.docx
+2022-12-04 10:49:31,687 - logManager - INFO - Started clicking search scans!
+2022-12-04 10:49:33,723 - logManager - INFO - finished clicking search scans!
+2022-12-04 10:49:35,604 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 10:49:35,609 - logManager - INFO - Current top file scan time stamp=Dec 04|10:20
+2022-12-04 10:49:35,611 - logManager - INFO - Started opening top file scan!
+2022-12-04 10:49:36,704 - logManager - INFO - finished opening top file scan!
+2022-12-04 10:49:36,705 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_1138fb8f-f426-438c-b80e-5acab0080b02_20221204/00019042_1_1138fb8f-f426-438c-b80e-5acab0080b02_20221204
+2022-12-04 10:49:36,705 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_1138fb8f-f426-438c-b80e-5acab0080b02_20221204/00019042_1_1138fb8f-f426-438c-b80e-5acab0080b02_20221204
+2022-12-04 10:49:36,705 - logManager - INFO - Before getting file name
+2022-12-04 10:49:39,651 - logManager - INFO - Before getting uploading user
+2022-12-04 10:49:39,656 - logManager - INFO - Before **File Extension** text
+2022-12-04 10:49:39,661 - logManager - INFO - Before **Mime type** text
+2022-12-04 10:49:39,665 - logManager - INFO - Before **File Size** text
+2022-12-04 10:49:39,670 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 10:49:39,678 - logManager - INFO - Before **Hap word2010** text
+2022-12-04 10:49:39,686 - logManager - INFO - Before **Hap word2016** text
+2022-12-04 10:49:39,695 - logManager - INFO - Before **word2019** text
+2022-12-04 10:49:39,703 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=mal.docx SUCCESSFULY
+******
+2022-12-04 10:49:39,703 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:49:42,731 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:49:42,731 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 10:49:47,811 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 10:49:47,817 - logManager - INFO - Started set file scan to search=chines.eml
+2022-12-04 10:49:47,835 - logManager - INFO - finished set file scan to search=chines.eml
+2022-12-04 10:49:47,836 - logManager - INFO - Started clicking search scans!
+2022-12-04 10:49:49,735 - logManager - INFO - finished clicking search scans!
+2022-12-04 10:49:50,825 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 10:49:50,833 - logManager - INFO - Current top file scan time stamp=Dec 04|10:20
+2022-12-04 10:49:50,833 - logManager - INFO - Started opening top file scan!
+2022-12-04 10:49:52,742 - logManager - INFO - finished opening top file scan!
+2022-12-04 10:49:52,743 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_76f9a7c8-6465-4a44-a485-5ae42c21435d_20221204/00019042_1_76f9a7c8-6465-4a44-a485-5ae42c21435d_20221204
+2022-12-04 10:49:52,743 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_76f9a7c8-6465-4a44-a485-5ae42c21435d_20221204/00019042_1_76f9a7c8-6465-4a44-a485-5ae42c21435d_20221204
+2022-12-04 10:49:52,743 - logManager - INFO - Before getting file name
+2022-12-04 10:49:54,745 - logManager - INFO - Before getting uploading user
+2022-12-04 10:49:54,749 - logManager - INFO - Before **File Extension** text
+2022-12-04 10:49:54,754 - logManager - INFO - Before **Mime type** text
+2022-12-04 10:49:54,758 - logManager - INFO - Before **File Size** text
+2022-12-04 10:49:54,764 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 10:49:54,770 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=chines.eml SUCCESSFULY
+******
+2022-12-04 10:49:54,771 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:49:57,742 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:49:57,743 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 10:50:02,840 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 10:50:02,846 - logManager - INFO - Started set file scan to search=CSS.amir
+2022-12-04 10:50:02,861 - logManager - INFO - finished set file scan to search=CSS.amir
+2022-12-04 10:50:02,862 - logManager - INFO - Started clicking search scans!
+2022-12-04 10:50:05,805 - logManager - INFO - finished clicking search scans!
+2022-12-04 10:50:07,684 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 10:50:07,688 - logManager - INFO - Current top file scan time stamp=Dec 04|10:48
+2022-12-04 10:50:07,688 - logManager - INFO - Started opening top file scan!
+2022-12-04 10:50:08,776 - logManager - INFO - finished opening top file scan!
+2022-12-04 10:50:08,777 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_70dfaf7d-e576-4480-bead-c6df1d007dad_20221204/00019042_1_70dfaf7d-e576-4480-bead-c6df1d007dad_20221204
+2022-12-04 10:50:08,777 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_70dfaf7d-e576-4480-bead-c6df1d007dad_20221204/00019042_1_70dfaf7d-e576-4480-bead-c6df1d007dad_20221204
+2022-12-04 10:50:08,777 - logManager - INFO - Before getting file name
+2022-12-04 10:50:10,731 - logManager - INFO - Before getting uploading user
+2022-12-04 10:50:10,735 - logManager - INFO - Before **File Extension** text
+2022-12-04 10:50:10,739 - logManager - INFO - Before **Mime type** text
+2022-12-04 10:50:10,743 - logManager - INFO - Before **File Size** text
+2022-12-04 10:50:10,747 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 10:50:10,752 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=CSS.amir SUCCESSFULY
+******
+2022-12-04 10:50:10,752 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:50:13,782 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:50:13,782 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 10:50:19,898 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 10:50:19,902 - logManager - INFO - Started set file scan to search=JS22.js
+2022-12-04 10:50:19,917 - logManager - INFO - finished set file scan to search=JS22.js
+2022-12-04 10:50:19,918 - logManager - INFO - Started clicking search scans!
+2022-12-04 10:50:22,850 - logManager - INFO - finished clicking search scans!
+2022-12-04 10:50:24,748 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 10:50:24,752 - logManager - INFO - Current top file scan time stamp=Dec 04|10:48
+2022-12-04 10:50:24,752 - logManager - INFO - Started opening top file scan!
+2022-12-04 10:50:25,817 - logManager - INFO - finished opening top file scan!
+2022-12-04 10:50:25,817 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_8e2427ca-65a1-4222-a7f9-42054f3ae470_20221204/00019042_1_8e2427ca-65a1-4222-a7f9-42054f3ae470_20221204
+2022-12-04 10:50:25,817 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_8e2427ca-65a1-4222-a7f9-42054f3ae470_20221204/00019042_1_8e2427ca-65a1-4222-a7f9-42054f3ae470_20221204
+2022-12-04 10:50:25,817 - logManager - INFO - Before getting file name
+2022-12-04 10:50:27,787 - logManager - INFO - Before getting uploading user
+2022-12-04 10:50:27,794 - logManager - INFO - Before **File Extension** text
+2022-12-04 10:50:27,800 - logManager - INFO - Before **Mime type** text
+2022-12-04 10:50:27,806 - logManager - INFO - Before **File Size** text
+2022-12-04 10:50:27,815 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 10:50:27,823 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=JS22.js SUCCESSFULY
+******
+2022-12-04 10:50:27,823 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:50:30,825 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:50:30,825 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 10:50:35,930 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 10:50:35,937 - logManager - INFO - Started set file scan to search=noizas-Italian.eml
+2022-12-04 10:50:35,953 - logManager - INFO - finished set file scan to search=noizas-Italian.eml
+2022-12-04 10:50:35,953 - logManager - INFO - Started clicking search scans!
+2022-12-04 10:50:38,882 - logManager - INFO - finished clicking search scans!
+2022-12-04 10:50:40,764 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 10:50:40,768 - logManager - INFO - Current top file scan time stamp=Dec 04|10:48
+2022-12-04 10:50:40,768 - logManager - INFO - Started opening top file scan!
+2022-12-04 10:50:41,851 - logManager - INFO - finished opening top file scan!
+2022-12-04 10:50:41,852 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_a512cc82-1db7-470a-816c-041a32742a1f_20221204/00019042_1_a512cc82-1db7-470a-816c-041a32742a1f_20221204
+2022-12-04 10:50:41,852 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_a512cc82-1db7-470a-816c-041a32742a1f_20221204/00019042_1_a512cc82-1db7-470a-816c-041a32742a1f_20221204
+2022-12-04 10:50:41,852 - logManager - INFO - Before getting file name
+2022-12-04 10:50:43,809 - logManager - INFO - Before getting uploading user
+2022-12-04 10:50:43,814 - logManager - INFO - Before **File Extension** text
+2022-12-04 10:50:43,818 - logManager - INFO - Before **Mime type** text
+2022-12-04 10:50:43,822 - logManager - INFO - Before **File Size** text
+2022-12-04 10:50:43,826 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 10:50:43,832 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=noizas-Italian.eml SUCCESSFULY
+******
+2022-12-04 10:50:43,833 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:50:46,854 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:50:46,855 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 10:50:52,975 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 10:50:52,981 - logManager - INFO - Started set file scan to search=organización española escanea.eml
+2022-12-04 10:50:53,000 - logManager - INFO - finished set file scan to search=organización española escanea.eml
+2022-12-04 10:50:53,000 - logManager - INFO - Started clicking search scans!
+2022-12-04 10:50:55,925 - logManager - INFO - finished clicking search scans!
+2022-12-04 10:50:57,796 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 10:50:57,800 - logManager - INFO - Current top file scan time stamp=Dec 04|10:48
+2022-12-04 10:50:57,800 - logManager - INFO - Started opening top file scan!
+2022-12-04 10:50:58,893 - logManager - INFO - finished opening top file scan!
+2022-12-04 10:50:58,894 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_c5d583ba-ccf0-4fa8-8ecd-25718affebd7_20221204/00019042_1_c5d583ba-ccf0-4fa8-8ecd-25718affebd7_20221204
+2022-12-04 10:50:58,894 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_c5d583ba-ccf0-4fa8-8ecd-25718affebd7_20221204/00019042_1_c5d583ba-ccf0-4fa8-8ecd-25718affebd7_20221204
+2022-12-04 10:50:58,894 - logManager - INFO - Before getting file name
+2022-12-04 10:51:01,849 - logManager - INFO - Before getting uploading user
+2022-12-04 10:51:01,887 - logManager - INFO - Before **File Extension** text
+2022-12-04 10:51:01,892 - logManager - INFO - Before **Mime type** text
+2022-12-04 10:51:01,896 - logManager - INFO - Before **File Size** text
+2022-12-04 10:51:01,900 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 10:51:01,908 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=organización española escanea.eml SUCCESSFULY
+******
+2022-12-04 10:51:01,908 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:51:05,901 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:51:05,902 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 10:51:10,017 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 10:51:10,023 - logManager - INFO - Started set file scan to search=password.HTML
+2022-12-04 10:51:10,039 - logManager - INFO - finished set file scan to search=password.HTML
+2022-12-04 10:51:10,040 - logManager - INFO - Started clicking search scans!
+2022-12-04 10:51:12,103 - logManager - INFO - finished clicking search scans!
+2022-12-04 10:51:14,005 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 10:51:14,008 - logManager - INFO - Current top file scan time stamp=Dec 04|10:48
+2022-12-04 10:51:14,009 - logManager - INFO - Started opening top file scan!
+2022-12-04 10:51:15,943 - logManager - INFO - finished opening top file scan!
+2022-12-04 10:51:15,943 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_68112074-10a9-4111-a407-d9606b0c3cb5_20221204/00019042_1_68112074-10a9-4111-a407-d9606b0c3cb5_20221204
+2022-12-04 10:51:15,944 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_68112074-10a9-4111-a407-d9606b0c3cb5_20221204/00019042_1_68112074-10a9-4111-a407-d9606b0c3cb5_20221204
+2022-12-04 10:51:15,944 - logManager - INFO - Before getting file name
+2022-12-04 10:51:17,894 - logManager - INFO - Before getting uploading user
+2022-12-04 10:51:17,899 - logManager - INFO - Before **File Extension** text
+2022-12-04 10:51:17,903 - logManager - INFO - Before **Mime type** text
+2022-12-04 10:51:17,908 - logManager - INFO - Before **File Size** text
+2022-12-04 10:51:17,912 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 10:51:17,918 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=password.HTML SUCCESSFULY
+******
+2022-12-04 10:51:17,918 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:51:20,944 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 10:51:21,049 - logManager - INFO - **********************************************************************************
+2022-12-04 10:51:21,050 - logManager - INFO - ***********FINISHING********** TEST: test_acronis_self_anlyze_file_no_password*********************************
+2022-12-04 10:51:21,050 - logManager - INFO - **********************************************************************************
+2022-12-04 11:04:16,544 - logManager - INFO - **********************************************************************************
+2022-12-04 11:04:16,545 - logManager - INFO - **********************STARTING TEST**** test_xray_self_anlyze_file_no_password**************************
+2022-12-04 11:04:16,545 - logManager - INFO - **********************************************************************************
+2022-12-04 11:04:16,874 - logManager - INFO - Navigating to login page=https://xray.testing.perception-point.io/
+2022-12-04 11:04:16,874 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:04:23,130 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:04:23,130 - logManager - INFO - Started  login process user=amiel.peled+automation@perception-point.io password=A1m2i3s4
+2022-12-04 11:04:24,207 - logManager - INFO - finished setting USERNAME=amiel.peled+automation@perception-point.io
+2022-12-04 11:04:24,238 - logManager - INFO - finished setting PASSWORD=A1m2i3s4
+2022-12-04 11:04:24,238 - logManager - INFO - Started Clicking login button
+2022-12-04 11:04:24,303 - logManager - INFO - finished Clicking login button
+2022-12-04 11:04:24,304 - logManager - INFO - Finished login process(user+pass) Navigating to main page
+2022-12-04 11:04:24,306 - logManager - INFO - Navigating to login page=https://xray.testing.perception-point.io/
+2022-12-04 11:04:24,306 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:04:26,001 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:04:26,001 - logManager - INFO - acronis_username=amiel.peled+automation@perception-point.io, acronis_password=A1m2i3s4
+2022-12-04 11:04:26,001 - logManager - INFO - Started  login process user=amiel.peled+automation@perception-point.io password=A1m2i3s4
+2022-12-04 11:04:27,181 - logManager - INFO - finished setting USERNAME=amiel.peled+automation@perception-point.io
+2022-12-04 11:04:27,210 - logManager - INFO - finished setting PASSWORD=A1m2i3s4
+2022-12-04 11:04:27,210 - logManager - INFO - Started Clicking login button
+2022-12-04 11:04:27,478 - logManager - INFO - finished Clicking login button
+2022-12-04 11:04:27,478 - logManager - INFO - Finished login process(user+pass) Navigating to main page
+2022-12-04 11:04:35,157 - logManager - INFO - Start clicking  SELF ANALYZE on  main PAGE
+2022-12-04 11:04:35,247 - logManager - INFO - Finished Clicking  SELF ANALYZE menu item button on  main PAGE
+2022-12-04 11:04:35,259 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 11:04:35,288 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 11:04:35,296 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 11:04:38,385 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 11:04:38,393 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 11:04:40,734 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 11:04:40,741 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 11:04:42,570 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 11:04:42,576 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 11:04:44,480 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 11:04:44,506 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 11:04:46,321 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 11:04:46,327 - logManager - INFO - Started Setting file to manually scan!
+2022-12-04 11:04:48,137 - logManager - INFO - finished Setting file to manually scan!
+2022-12-04 11:05:56,423 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:05:56,717 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:05:56,732 - logManager - INFO - Started set file scan to search=mal.docx
+2022-12-04 11:05:56,762 - logManager - INFO - finished set file scan to search=mal.docx
+2022-12-04 11:05:56,763 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:05:56,889 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:05:58,765 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 11:05:58,772 - logManager - INFO - Current top file scan time stamp=Dec 04|10:22
+2022-12-04 11:05:58,779 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:05:58,871 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:05:58,872 - logManager - INFO - trying to verify current web page url == https://xray.testing.perception-point.io/scans/00017933_1_d2fa521e-9c50-407a-9db3-fb0b6b2e816b_20221204/00017933_1_d2fa521e-9c50-407a-9db3-fb0b6b2e816b_20221204
+2022-12-04 11:05:58,872 - logManager - INFO - verified current web page url == https://xray.testing.perception-point.io/scans/00017933_1_d2fa521e-9c50-407a-9db3-fb0b6b2e816b_20221204/00017933_1_d2fa521e-9c50-407a-9db3-fb0b6b2e816b_20221204
+2022-12-04 11:05:58,872 - logManager - INFO - Before getting file name
+2022-12-04 11:06:01,950 - logManager - INFO - Before getting uploading user
+2022-12-04 11:06:01,959 - logManager - INFO - Before **File Extension** text
+2022-12-04 11:06:01,977 - logManager - INFO - Before **Mime type** text
+2022-12-04 11:06:01,984 - logManager - INFO - Before **File Size** text
+2022-12-04 11:06:01,991 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:06:02,000 - logManager - INFO - Before **Hap word2010** text
+2022-12-04 11:06:02,010 - logManager - INFO - Before **Hap word2016** text
+2022-12-04 11:06:02,019 - logManager - INFO - Before **word2019** text
+2022-12-04 11:06:02,027 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=mal.docx SUCCESSFULY
+******
+2022-12-04 11:06:02,028 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:04,025 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:04,026 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:06:08,299 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:06:08,308 - logManager - INFO - Started set file scan to search=chines.eml
+2022-12-04 11:06:08,375 - logManager - INFO - finished set file scan to search=chines.eml
+2022-12-04 11:06:08,376 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:06:08,497 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:06:10,370 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 11:06:10,376 - logManager - INFO - Current top file scan time stamp=Dec 04|10:22
+2022-12-04 11:06:10,383 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:06:10,469 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:06:10,470 - logManager - INFO - trying to verify current web page url == https://xray.testing.perception-point.io/scans/00017933_1_ee58f8a8-d1af-492e-b886-669196d2fcd9_20221204/00017933_1_ee58f8a8-d1af-492e-b886-669196d2fcd9_20221204
+2022-12-04 11:06:10,470 - logManager - INFO - verified current web page url == https://xray.testing.perception-point.io/scans/00017933_1_ee58f8a8-d1af-492e-b886-669196d2fcd9_20221204/00017933_1_ee58f8a8-d1af-492e-b886-669196d2fcd9_20221204
+2022-12-04 11:06:10,470 - logManager - INFO - Before getting file name
+2022-12-04 11:06:12,602 - logManager - INFO - Before getting uploading user
+2022-12-04 11:06:12,607 - logManager - INFO - Before **File Extension** text
+2022-12-04 11:06:12,612 - logManager - INFO - Before **Mime type** text
+2022-12-04 11:06:12,620 - logManager - INFO - Before **File Size** text
+2022-12-04 11:06:12,627 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:06:12,635 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=chines.eml SUCCESSFULY
+******
+2022-12-04 11:06:12,635 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:14,209 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:14,210 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:06:18,942 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:06:18,956 - logManager - INFO - Started set file scan to search=CSS.amir
+2022-12-04 11:06:18,980 - logManager - INFO - finished set file scan to search=CSS.amir
+2022-12-04 11:06:18,980 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:06:19,076 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:06:20,949 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 11:06:20,955 - logManager - INFO - Current top file scan time stamp=Dec 04|11:04
+2022-12-04 11:06:20,961 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:06:21,055 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:06:21,056 - logManager - INFO - trying to verify current web page url == https://xray.testing.perception-point.io/scans/00017933_1_f803c522-0634-4671-9043-5e040d568d8f_20221204/00017933_1_f803c522-0634-4671-9043-5e040d568d8f_20221204
+2022-12-04 11:06:21,056 - logManager - INFO - verified current web page url == https://xray.testing.perception-point.io/scans/00017933_1_f803c522-0634-4671-9043-5e040d568d8f_20221204/00017933_1_f803c522-0634-4671-9043-5e040d568d8f_20221204
+2022-12-04 11:06:21,056 - logManager - INFO - Before getting file name
+2022-12-04 11:06:23,129 - logManager - INFO - Before getting uploading user
+2022-12-04 11:06:23,137 - logManager - INFO - Before **File Extension** text
+2022-12-04 11:06:23,143 - logManager - INFO - Before **Mime type** text
+2022-12-04 11:06:23,150 - logManager - INFO - Before **File Size** text
+2022-12-04 11:06:23,156 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:06:23,162 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=CSS.amir SUCCESSFULY
+******
+2022-12-04 11:06:23,162 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:24,655 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:24,655 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:06:29,388 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:06:29,396 - logManager - INFO - Started set file scan to search=JS22.js
+2022-12-04 11:06:29,419 - logManager - INFO - finished set file scan to search=JS22.js
+2022-12-04 11:06:29,420 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:06:29,549 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:06:30,661 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 11:06:30,666 - logManager - INFO - Current top file scan time stamp=Dec 04|11:04
+2022-12-04 11:06:30,675 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:06:30,767 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:06:30,767 - logManager - INFO - trying to verify current web page url == https://xray.testing.perception-point.io/scans/00017933_1_030d3d7c-7e95-4774-b8d3-6c3f2e54a232_20221204/00017933_1_030d3d7c-7e95-4774-b8d3-6c3f2e54a232_20221204
+2022-12-04 11:06:30,767 - logManager - INFO - verified current web page url == https://xray.testing.perception-point.io/scans/00017933_1_030d3d7c-7e95-4774-b8d3-6c3f2e54a232_20221204/00017933_1_030d3d7c-7e95-4774-b8d3-6c3f2e54a232_20221204
+2022-12-04 11:06:30,767 - logManager - INFO - Before getting file name
+2022-12-04 11:06:33,028 - logManager - INFO - Before getting uploading user
+2022-12-04 11:06:33,034 - logManager - INFO - Before **File Extension** text
+2022-12-04 11:06:33,042 - logManager - INFO - Before **Mime type** text
+2022-12-04 11:06:33,047 - logManager - INFO - Before **File Size** text
+2022-12-04 11:06:33,052 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:06:33,061 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=JS22.js SUCCESSFULY
+******
+2022-12-04 11:06:33,061 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:34,895 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:34,895 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:06:39,782 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:06:39,791 - logManager - INFO - Started set file scan to search=noizas-Italian.eml
+2022-12-04 11:06:39,813 - logManager - INFO - finished set file scan to search=noizas-Italian.eml
+2022-12-04 11:06:39,814 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:06:39,916 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:06:41,813 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 11:06:41,818 - logManager - INFO - Current top file scan time stamp=Dec 04|11:04
+2022-12-04 11:06:41,825 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:06:41,925 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:06:41,925 - logManager - INFO - trying to verify current web page url == https://xray.testing.perception-point.io/scans/00017933_1_d3f1ff3d-11a5-42bc-a3a6-674b7368a2b4_20221204/00017933_1_d3f1ff3d-11a5-42bc-a3a6-674b7368a2b4_20221204
+2022-12-04 11:06:41,925 - logManager - INFO - verified current web page url == https://xray.testing.perception-point.io/scans/00017933_1_d3f1ff3d-11a5-42bc-a3a6-674b7368a2b4_20221204/00017933_1_d3f1ff3d-11a5-42bc-a3a6-674b7368a2b4_20221204
+2022-12-04 11:06:41,926 - logManager - INFO - Before getting file name
+2022-12-04 11:06:44,003 - logManager - INFO - Before getting uploading user
+2022-12-04 11:06:44,010 - logManager - INFO - Before **File Extension** text
+2022-12-04 11:06:44,016 - logManager - INFO - Before **Mime type** text
+2022-12-04 11:06:44,022 - logManager - INFO - Before **File Size** text
+2022-12-04 11:06:44,028 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:06:44,034 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=noizas-Italian.eml SUCCESSFULY
+******
+2022-12-04 11:06:44,034 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:45,380 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:45,381 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:06:49,832 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:06:49,845 - logManager - INFO - Started set file scan to search=organización española escanea.eml
+2022-12-04 11:06:49,868 - logManager - INFO - finished set file scan to search=organización española escanea.eml
+2022-12-04 11:06:49,869 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:06:49,971 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:06:51,853 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 11:06:51,858 - logManager - INFO - Current top file scan time stamp=Dec 04|11:04
+2022-12-04 11:06:51,865 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:06:51,958 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:06:51,959 - logManager - INFO - trying to verify current web page url == https://xray.testing.perception-point.io/scans/00017933_1_60460499-43a5-441d-a75f-c6d2877e65ca_20221204/00017933_1_60460499-43a5-441d-a75f-c6d2877e65ca_20221204
+2022-12-04 11:06:51,959 - logManager - INFO - verified current web page url == https://xray.testing.perception-point.io/scans/00017933_1_60460499-43a5-441d-a75f-c6d2877e65ca_20221204/00017933_1_60460499-43a5-441d-a75f-c6d2877e65ca_20221204
+2022-12-04 11:06:51,959 - logManager - INFO - Before getting file name
+2022-12-04 11:06:54,002 - logManager - INFO - Before getting uploading user
+2022-12-04 11:06:54,011 - logManager - INFO - Before **File Extension** text
+2022-12-04 11:06:54,016 - logManager - INFO - Before **Mime type** text
+2022-12-04 11:06:54,022 - logManager - INFO - Before **File Size** text
+2022-12-04 11:06:54,027 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:06:54,033 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=organización española escanea.eml SUCCESSFULY
+******
+2022-12-04 11:06:54,034 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:55,163 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:06:55,164 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:07:00,349 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:07:00,357 - logManager - INFO - Started set file scan to search=password.HTML
+2022-12-04 11:07:00,406 - logManager - INFO - finished set file scan to search=password.HTML
+2022-12-04 11:07:00,406 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:07:00,511 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:07:02,389 - logManager - INFO - Getting top scan time stamp on scan results list
+2022-12-04 11:07:02,393 - logManager - INFO - Current top file scan time stamp=Dec 04|11:04
+2022-12-04 11:07:02,399 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:07:02,479 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:07:02,480 - logManager - INFO - trying to verify current web page url == https://xray.testing.perception-point.io/scans/00017933_1_04acbfe6-9a3b-4fab-b90b-7e9f98bb4489_20221204/00017933_1_04acbfe6-9a3b-4fab-b90b-7e9f98bb4489_20221204
+2022-12-04 11:07:02,480 - logManager - INFO - verified current web page url == https://xray.testing.perception-point.io/scans/00017933_1_04acbfe6-9a3b-4fab-b90b-7e9f98bb4489_20221204/00017933_1_04acbfe6-9a3b-4fab-b90b-7e9f98bb4489_20221204
+2022-12-04 11:07:02,480 - logManager - INFO - Before getting file name
+2022-12-04 11:07:04,860 - logManager - INFO - Before getting uploading user
+2022-12-04 11:07:04,866 - logManager - INFO - Before **File Extension** text
+2022-12-04 11:07:04,871 - logManager - INFO - Before **Mime type** text
+2022-12-04 11:07:04,876 - logManager - INFO - Before **File Size** text
+2022-12-04 11:07:04,881 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:07:04,888 - logManager - INFO - *********
+FINISHED VERIFING FILE SCAN of file=password.HTML SUCCESSFULY
+******
+2022-12-04 11:07:04,888 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:07:06,196 - logManager - INFO - Finished  navigating to url https://xray.testing.perception-point.io/
+2022-12-04 11:07:06,489 - logManager - INFO - **********************************************************************************
+2022-12-04 11:07:06,490 - logManager - INFO - ***********FINISHING********** TEST: test_xray_self_anlyze_file_no_password*********************************
+2022-12-04 11:07:06,490 - logManager - INFO - **********************************************************************************
+2022-12-04 11:07:38,976 - logManager - INFO - **********************************************************************************
+2022-12-04 11:07:38,976 - logManager - INFO - **********************STARTING TEST**** test_acronis_self_anlyze_url**************************
+2022-12-04 11:07:38,976 - logManager - INFO - **********************************************************************************
+2022-12-04 11:07:39,317 - logManager - INFO - Navigating to login page=https://acronis.testing.perception-point.io/
+2022-12-04 11:07:39,317 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:07:45,940 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:07:45,940 - logManager - INFO - acronis_username=amiel.peled+acronis@perception-point.io, acronis_password=A1m2i3s4
+2022-12-04 11:07:45,940 - logManager - INFO - Started  login process user=amiel.peled+acronis@perception-point.io password=A1m2i3s4
+2022-12-04 11:07:47,005 - logManager - INFO - finished setting USERNAME=amiel.peled+acronis@perception-point.io
+2022-12-04 11:07:47,031 - logManager - INFO - finished setting PASSWORD=A1m2i3s4
+2022-12-04 11:07:47,031 - logManager - INFO - Started Clicking login button
+2022-12-04 11:07:47,079 - logManager - INFO - finished Clicking login button
+2022-12-04 11:07:47,079 - logManager - INFO - Finished login process(user+pass) Navigating to main page
+2022-12-04 11:07:54,595 - logManager - INFO - Start clicking  SELF ANALYZE on  main PAGE
+2022-12-04 11:07:54,696 - logManager - INFO - Finished Clicking  SELF ANALYZE menu item button on  main PAGE
+2022-12-04 11:07:54,707 - logManager - INFO - Started Clicking url analysys tab
+2022-12-04 11:07:54,771 - logManager - INFO - finished Clicking url analysys tab
+2022-12-04 11:07:54,772 - logManager - INFO - Started Setting url to analyze
+2022-12-04 11:07:54,797 - logManager - INFO - finished Setting url to analyze
+2022-12-04 11:07:54,797 - logManager - INFO - Started clicking analyze url
+2022-12-04 11:07:54,875 - logManager - INFO - finished clicking analyze url
+2022-12-04 11:07:54,875 - logManager - INFO - Started Setting url to analyze
+2022-12-04 11:07:56,139 - logManager - INFO - finished Setting url to analyze
+2022-12-04 11:07:56,139 - logManager - INFO - Started clicking analyze url
+2022-12-04 11:07:56,370 - logManager - INFO - finished clicking analyze url
+2022-12-04 11:07:56,371 - logManager - INFO - Started Setting url to analyze
+2022-12-04 11:07:57,214 - logManager - INFO - finished Setting url to analyze
+2022-12-04 11:07:57,214 - logManager - INFO - Started clicking analyze url
+2022-12-04 11:07:57,286 - logManager - INFO - finished clicking analyze url
+2022-12-04 11:08:07,324 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:08:07,544 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:08:07,562 - logManager - INFO - Started set file scan result to search=https://www.calcalist.co.il
+2022-12-04 11:08:07,583 - logManager - INFO - finished set url scan result to search=https://www.calcalist.co.il
+2022-12-04 11:08:07,583 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:08:07,688 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:08:09,585 - logManager - INFO - On ACRONIS Getting TOP ITEM SCAN TIME stamp on scan results list
+2022-12-04 11:08:09,591 - logManager - INFO - Current top file scan time stamp=Dec 04|10:24
+2022-12-04 11:08:09,601 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:08:09,693 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:08:09,694 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_9dc30ac0-2b21-4d02-8d64-c27118148126_20221204/00019042_1_9dc30ac0-2b21-4d02-8d64-c27118148126_20221204
+2022-12-04 11:08:09,694 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_9dc30ac0-2b21-4d02-8d64-c27118148126_20221204/00019042_1_9dc30ac0-2b21-4d02-8d64-c27118148126_20221204
+2022-12-04 11:08:09,694 - logManager - INFO - Before **getting URL LINE** text
+2022-12-04 11:08:11,647 - logManager - INFO - Before **Uploading user*** text
+2022-12-04 11:08:11,658 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:08:11,679 - logManager - INFO - *********
+FINISHED VERIFING SCANED URL=https://www.calcalist.co.il SUCCESSFULY
+******
+2022-12-04 11:08:11,679 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:08:13,422 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:08:13,423 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:08:17,583 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:08:17,596 - logManager - INFO - Started set file scan result to search=https://www.kipa.com
+2022-12-04 11:08:17,618 - logManager - INFO - finished set url scan result to search=https://www.kipa.com
+2022-12-04 11:08:17,618 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:08:17,716 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:08:18,758 - logManager - INFO - On ACRONIS Getting TOP ITEM SCAN TIME stamp on scan results list
+2022-12-04 11:08:18,764 - logManager - INFO - Current top file scan time stamp=Dec 04|10:24
+2022-12-04 11:08:18,775 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:08:18,860 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:08:18,860 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_78f09f47-5fff-4839-bfe9-71ec3af0b9aa_20221204/00019042_1_78f09f47-5fff-4839-bfe9-71ec3af0b9aa_20221204
+2022-12-04 11:08:18,860 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_78f09f47-5fff-4839-bfe9-71ec3af0b9aa_20221204/00019042_1_78f09f47-5fff-4839-bfe9-71ec3af0b9aa_20221204
+2022-12-04 11:08:18,861 - logManager - INFO - Before **getting URL LINE** text
+2022-12-04 11:08:20,581 - logManager - INFO - Before **Uploading user*** text
+2022-12-04 11:08:20,587 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:08:20,593 - logManager - INFO - *********
+FINISHED VERIFING SCANED URL=https://www.kipa.com SUCCESSFULY
+******
+2022-12-04 11:08:20,594 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:08:21,988 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:08:21,989 - logManager - INFO - Start clicking Full List link on MainPage main menu
+2022-12-04 11:08:26,420 - logManager - INFO - Finished clicking Full List link on MainPage main menu
+2022-12-04 11:08:26,434 - logManager - INFO - Started set file scan result to search=http://chen.co.il
+2022-12-04 11:08:26,458 - logManager - INFO - finished set url scan result to search=http://chen.co.il
+2022-12-04 11:08:26,459 - logManager - INFO - Started clicking search scans!
+2022-12-04 11:08:26,573 - logManager - INFO - finished clicking search scans!
+2022-12-04 11:08:28,497 - logManager - INFO - On ACRONIS Getting TOP ITEM SCAN TIME stamp on scan results list
+2022-12-04 11:08:28,502 - logManager - INFO - Current top file scan time stamp=Dec 04|11:07
+2022-12-04 11:08:28,510 - logManager - INFO - Started opening top file scan!
+2022-12-04 11:08:28,597 - logManager - INFO - finished opening top file scan!
+2022-12-04 11:08:28,598 - logManager - INFO - trying to verify current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_613b7f9b-e695-4e48-aa40-7b15b442ea25_20221204/00019042_1_613b7f9b-e695-4e48-aa40-7b15b442ea25_20221204
+2022-12-04 11:08:28,598 - logManager - INFO - verified current web page url == https://acronis.testing.perception-point.io/scans/00019042_1_613b7f9b-e695-4e48-aa40-7b15b442ea25_20221204/00019042_1_613b7f9b-e695-4e48-aa40-7b15b442ea25_20221204
+2022-12-04 11:08:28,598 - logManager - INFO - Before **getting URL LINE** text
+2022-12-04 11:08:30,449 - logManager - INFO - Before **Uploading user*** text
+2022-12-04 11:08:30,455 - logManager - INFO - Before **file scan malicious verdict** text
+2022-12-04 11:08:30,466 - logManager - INFO - Before **getting Web Title** text
+2022-12-04 11:08:30,471 - logManager - INFO - Before **getting Responce Url** text
+2022-12-04 11:08:30,478 - logManager - INFO - Before **getting Uploading User** text
+2022-12-04 11:08:30,484 - logManager - INFO - *********
+FINISHED VERIFING SCANED URL=http://chen.co.il SUCCESSFULY
+******
+2022-12-04 11:08:30,485 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:08:32,243 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-04 11:08:32,270 - logManager - INFO - **********************************************************************************
+2022-12-04 11:08:32,270 - logManager - INFO - ***********FINISHING********** TEST: test_acronis_self_anlyze_url*********************************
+2022-12-04 11:08:32,270 - logManager - INFO - **********************************************************************************
+2022-12-05 11:08:16,652 - logManager - INFO - **********************************************************************************
+2022-12-05 11:08:16,658 - logManager - INFO - **********************STARTING TEST**** test_acronis_self_anlyze_file_no_password**************************
+2022-12-05 11:08:16,658 - logManager - INFO - **********************************************************************************
+2022-12-05 11:08:17,147 - logManager - INFO - Navigating to login page=https://acronis.testing.perception-point.io/
+2022-12-05 11:08:17,147 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2022-12-05 11:08:23,395 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2022-12-05 11:08:23,395 - logManager - INFO - acronis_username=amiel.peled+acronis@perception-point.io, acronis_password=A1m2i3s4
+2022-12-05 11:08:23,396 - logManager - INFO - Started  login process user=amiel.peled+acronis@perception-point.io password=A1m2i3s4
+2022-12-05 11:08:24,478 - logManager - INFO - finished setting USERNAME=amiel.peled+acronis@perception-point.io
+2022-12-05 11:08:24,499 - logManager - INFO - finished setting PASSWORD=A1m2i3s4
+2022-12-05 11:08:24,499 - logManager - INFO - Started Clicking login button
+2022-12-05 11:08:24,539 - logManager - INFO - finished Clicking login button
+2022-12-05 11:08:24,539 - logManager - INFO - Finished login process(user+pass) Navigating to main page
+2022-12-05 11:08:31,641 - logManager - INFO - Start clicking  SELF ANALYZE on  main PAGE
+2022-12-05 11:08:31,722 - logManager - INFO - Finished Clicking  SELF ANALYZE menu item button on  main PAGE
+2022-12-05 11:08:31,729 - logManager - INFO - Started Setting file to manually scan!
+2022-12-05 11:08:31,760 - logManager - INFO - finished Setting file to manually scan!
+2022-12-05 11:08:31,765 - logManager - INFO - Started Setting file to manually scan!

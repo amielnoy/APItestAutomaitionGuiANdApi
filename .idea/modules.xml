@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/APItestAutomaition.iml" filepath="$PROJECT_DIR$/.idea/APItestAutomaition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/playwright-python-tutorial.iml" filepath="$PROJECT_DIR$/.idea/playwright-python-tutorial.iml" />
     </modules>
   </component>
 </project>

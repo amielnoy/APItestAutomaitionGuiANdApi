@@ -1,0 +1,1 @@
+python -m pytest tests/ApiTests/rapid_api_tests/rapid_api_test.py --alluredir=allure-report
