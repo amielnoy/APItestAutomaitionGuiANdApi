@@ -15,6 +15,7 @@ class BaseHttpRequests:
 
     @staticmethod
     def get_headers(token):
+
         return {'Authorization': 'Bearer ' + token}
 
     @staticmethod #??? duplicate function
@@ -111,7 +112,7 @@ class BaseHttpRequests:
     def http_put_request(base_url, url_prefix, json_body='', token_value=''):
         response = requests.get(
             base_url + url_prefix
-            , json_body
+            , json=json_body
             , headers=BaseHttpRequests.get_headers(token=token_value))
         # print('organization_domains=')
         # print(response.json())
@@ -123,7 +124,7 @@ class BaseHttpRequests:
     def http_put_request(url_prefix, json_body='', token_value=''):
         response = requests.get(
             BaseHttpRequests.base_url + url_prefix
-            , json_body
+            , json=json_body
             , headers=BaseHttpRequests.get_headers(token=token_value))
         # assert response.status_code == 200 \
         #     , 'ERROR put request failed status codes=' + response.status_code
@@ -132,10 +133,12 @@ class BaseHttpRequests:
 
     @staticmethod
     def http_put_request(full_url, json_body='', token_value=''):
+        headers = {'Content-Type': 'application/json'}
+        headers.update(BaseHttpRequests.get_headers(token=token_value))
         response = requests.put(
             full_url
-            , json_body
-            , headers=BaseHttpRequests.get_headers(token=token_value))
+            , data=json_body
+            , headers=headers)
         # assert response.status_code == 200 \
         #     , 'ERROR put request failed status codes=' + response.status_code
         # print(response.json())
@@ -143,9 +146,10 @@ class BaseHttpRequests:
 
     @staticmethod
     def http_delete_request(full_url, token_value=''):
+
         response = requests.delete(
             full_url
-            , headers=BaseHttpRequests.get_headers(token=token_value))
+            , headers=BaseHttpRequests.get_headers(token_value))
         # assert response.status_code == 200 \
         #     , 'ERROR put request failed status codes=' + response.status_code
         # print(response.json())
