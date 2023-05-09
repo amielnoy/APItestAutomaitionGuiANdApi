@@ -19,6 +19,9 @@ class LogManager:
         # create console handler and set level to debug
         consoleHandler = logging.StreamHandler()
         consoleHandler.setLevel(logging.DEBUG)
+        if(not LogManager.get_project_root().joinpath("test_output/TestLogs/tests.log").is_file()):
+            #create the log file
+            LogManager.get_project_root().joinpath("test_output/TestLogs/tests.log").mkdir(exist_ok=True, parents=True)
         LOG_FILENAME = LogManager.get_project_root().joinpath("test_output/TestLogs/tests.log").absolute()
         fileHandler = logging.handlers.TimedRotatingFileHandler(LOG_FILENAME, when='D', interval=1)
         fileHandler.setLevel(logging.DEBUG)
