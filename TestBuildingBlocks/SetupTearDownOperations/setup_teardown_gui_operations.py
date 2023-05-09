@@ -1,13 +1,11 @@
 import os
 
-import allure
-import requests
-
 from pages.login import login
 from pages.BasePage import BasePage
 from LogManager import LogManager
 from pages.Settings.Preferences.PreferncesPage import preferences_page
 from pages.Settings.Preferences.ChannelsPage import channels_page
+from pages.Settings.SettingsMainPage import SettingsMainPage
 from pages.xray_main_page import xrayInsightsMainPage
 
 
@@ -56,7 +54,7 @@ class SetupTearDownGuiOperations(BasePage):
     def set_channel_gui(page, xray_main_page, set_office) -> None:
         xray_main_page.click_setting_menu_item()
         # click Preferences tab
-        my_settings = SettingMainPage(page)
+        my_settings = SettingsMainPage(page)
         my_settings.click_preferences()
 
         my_prefernces = preferences_page(page)
