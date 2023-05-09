@@ -5,14 +5,14 @@ import requests
 
 from pages.login import login
 from pages.BasePage import BasePage
-from logManager import logManager
+from LogManager import LogManager
 from pages.Settings.Preferences.PreferncesPage import preferences_page
 from pages.Settings.Preferences.ChannelsPage import channels_page
 from pages.xray_main_page import xrayInsightsMainPage
 
 
 class SetupTearDownGuiOperations(BasePage):
-    logger = logManager().get_logger_instance()
+    logger = LogManager().get_logger_instance()
 
     token_value = os.getenv('XRAY_USER_TOKEN1')
 

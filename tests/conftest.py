@@ -16,7 +16,7 @@ from playwright.sync_api import Playwright
 from Utils.Reporting.Reporting import Reporting
 from Utils.Time.Time import Time
 from Utils.Enviornment.enviornment_files_ops import get_envvars
-from logManager import logManager
+from LogManager import LogManager
 from pages.login import login
 from test_base import BaseTest
 
@@ -53,7 +53,7 @@ def login_setup(setup_data_driven_login, read_non_secrets):
 @pytest.fixture(scope="function")
 def setup_browser_page(playwright: Playwright, request) -> None:
     testname = request.node.name
-    logger = logManager().get_logger_instance()
+    logger = LogManager().get_logger_instance()
     logger.info("**********************************************************************************")
     logger.info("**********************STARTING TEST**** " + testname + "**************************")
     logger.info("**********************************************************************************")
@@ -187,7 +187,7 @@ def setup_browser_page(playwright: Playwright, request) -> None:
 @pytest.fixture(scope="function")
 def setup_data_driven_login(playwright: Playwright, request) -> None:
     testname = request.node.name
-    logger = logManager().get_logger_instance()
+    logger = LogManager().get_logger_instance()
     logger.info("**********************************************************************************")
     logger.info("**********************STARTING TEST**** " + testname + "**************************")
     logger.info("**********************************************************************************")

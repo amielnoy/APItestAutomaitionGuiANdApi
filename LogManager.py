@@ -3,7 +3,7 @@ import logging.handlers
 from pathlib import Path
 
 
-class logManager:
+class LogManager:
     logging_initialized = False
     logger_instance = None
 
@@ -19,7 +19,7 @@ class logManager:
         # create console handler and set level to debug
         consoleHandler = logging.StreamHandler()
         consoleHandler.setLevel(logging.DEBUG)
-        LOG_FILENAME = logManager.get_project_root().joinpath("test_output/TestLogs/tests.log").absolute()
+        LOG_FILENAME = LogManager.get_project_root().joinpath("test_output/TestLogs/tests.log").absolute()
         fileHandler = logging.handlers.TimedRotatingFileHandler(LOG_FILENAME, when='D', interval=1)
         fileHandler.setLevel(logging.DEBUG)
 
@@ -40,13 +40,13 @@ class logManager:
         # logger.warning('Something is not right.')
         # logger.error('A Major error has happened.')
         # logger.critical('Fatal error. Cannot continue')
-        logManager.logging_initialized = True
-        logManager.logger_instance = logger
-        return logManager.logger_instance
+        LogManager.logging_initialized = True
+        LogManager.logger_instance = logger
+        return LogManager.logger_instance
 
     @staticmethod
     def get_logger_instance():
-        if not logManager.logging_initialized:
-            return logManager.config_logger()
+        if not LogManager.logging_initialized:
+            return LogManager.config_logger()
         else:
-            return logManager.logger_instance
+            return LogManager.logger_instance

@@ -5,11 +5,11 @@ from tokenize import String
 from dotenv import load_dotenv
 
 from Utils.Enviornment.enviornment_files_ops import get_envvars
-from logManager import logManager
+from LogManager import LogManager
 
 
 class BaseTest:
-    logger = logManager().get_logger_instance()
+    logger = LogManager().get_logger_instance()
     is_first_acronis_test = False
     acronis_last_build_number = 'InitAcronis'
     is_first_xray_test = False
