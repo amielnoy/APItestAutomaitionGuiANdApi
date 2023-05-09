@@ -5,7 +5,7 @@ from pages.BasePage import BasePage
 from LogManager import LogManager
 from pages.Settings.Preferences.PreferncesPage import preferences_page
 from pages.Settings.Preferences.ChannelsPage import channels_page
-from pages.Settings.SettingsMainPage import SettingsMainPage
+from pages.Settings.settings_Main_page import SettingsMainPage
 from pages.xray_main_page import xrayInsightsMainPage
 
 
