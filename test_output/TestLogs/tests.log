@@ -1,0 +1,11 @@
+2023-05-09 14:21:46,841 - logManager - INFO - **********************************************************************************
+2023-05-09 14:21:46,842 - logManager - INFO - **********************STARTING TEST**** test_search_help_acronis**************************
+2023-05-09 14:21:46,843 - logManager - INFO - **********************************************************************************
+2023-05-09 14:21:55,662 - logManager - INFO - Navigating to login page=https://acronis.testing.perception-point.io/
+2023-05-09 14:21:55,668 - logManager - INFO - Starting   navigating to url https://acronis.testing.perception-point.io/
+2023-05-09 14:22:04,822 - logManager - INFO - Finished  navigating to url https://acronis.testing.perception-point.io/
+2023-05-09 14:22:06,890 - logManager - INFO - **********************************************************************************
+2023-05-09 14:22:06,890 - logManager - INFO - **********************STARTING TEST**** test_search_help_xray**************************
+2023-05-09 14:22:06,891 - logManager - INFO - **********************************************************************************
+2023-05-09 14:22:09,323 - logManager - INFO - Navigating to login page=https://xray.testing.perception-point.io/
+2023-05-09 14:22:09,327 - logManager - INFO - Starting   navigating to url https://xray.testing.perception-point.io/
