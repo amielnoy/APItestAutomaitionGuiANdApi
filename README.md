@@ -124,3 +124,8 @@ The branch names are:
 | Part 5   | 5-playwright-tricks |
 | Part 6   | 6-api-testing       |
 | Complete | main                |
+
+
+# Notes
+
+Cats are cats
