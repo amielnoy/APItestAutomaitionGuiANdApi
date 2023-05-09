@@ -2,4 +2,5 @@ from SetupTearDownOperations.setup_teardown_api_operations import SetupTearDownA
 
 
 class TestsDeleteRequests:
-
+    def dummy(self):
+        pass
