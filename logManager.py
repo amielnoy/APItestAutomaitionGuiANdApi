@@ -1,10 +1,15 @@
 import logging
 import logging.handlers
+from pathlib import Path
+
 
 class logManager:
     logging_initialized = False
     logger_instance = None
 
+    @staticmethod
+    def get_project_root() -> Path:
+        return Path(__file__).parent
     @staticmethod
     def config_logger():
         logger = logging.getLogger(__name__)
@@ -14,7 +19,7 @@ class logManager:
         # create console handler and set level to debug
         consoleHandler = logging.StreamHandler()
         consoleHandler.setLevel(logging.DEBUG)
-        LOG_FILENAME = "test_output/TestLogs/tests.log"
+        LOG_FILENAME = logManager.get_project_root().joinpath("test_output/TestLogs/tests.log").absolute()
         fileHandler = logging.handlers.TimedRotatingFileHandler(LOG_FILENAME, when='D', interval=1)
         fileHandler.setLevel(logging.DEBUG)
 
