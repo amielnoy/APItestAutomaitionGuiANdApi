@@ -1,0 +1,13 @@
+Name,Expected_status
+
+pikachu,200
+
+alakazam,200
+
+charmamnder,404
+
+ditto,200
+
+a1,404
+
+kabuki,404
