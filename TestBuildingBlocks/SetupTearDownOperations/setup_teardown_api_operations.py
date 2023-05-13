@@ -4,17 +4,16 @@ from tokenize import String
 
 import allure
 import requests
-from docutils.utils import Reporter
 
 from Utils.HttpRequests.base_http_requests import BaseHttpRequests
 from Utils.HttpRequests.http_requests_acronis import AcronisHttpRequests
 from Utils.HttpRequests.http_requests_xray import XrayHttpRequests
 from Utils.Reporting.Reporting import Reporting
-from logManager import logManager
+from LogManager import LogManager
 
 
 class SetupTearDownApiOperations:
-    logger = logManager().get_logger_instance()
+    logger = LogManager().get_logger_instance()
 
     running_scan_id = 'init_value'
 

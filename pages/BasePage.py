@@ -4,14 +4,14 @@ from tokenize import String
 import allure
 
 from Utils.Reporting.Reporting import Reporting
-from logManager import logManager
+from LogManager import LogManager
 
 
 class BasePage:
     def __init__(self, page, url):
         self.url = url
         self.page = page
-        self.logger = logManager().get_logger_instance()
+        self.logger = LogManager().get_logger_instance()
 
     def navigate_to_url(self):
         Reporting.report_allure_and_logger("INFO", "Starting   navigating to url %s" % self.url)

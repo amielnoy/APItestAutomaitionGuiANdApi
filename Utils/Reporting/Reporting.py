@@ -3,11 +3,11 @@ from Utils.Time.Time import Time
 import allure
 from allure_commons.types import AttachmentType
 
-from logManager import logManager
+from LogManager import LogManager
 
 
 class Reporting:
-    logger = logManager().get_logger_instance()
+    logger = LogManager().get_logger_instance()
 
     @staticmethod
     def take_screenshot_and_add_to_report(page, testname):

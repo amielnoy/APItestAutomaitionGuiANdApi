@@ -15,13 +15,14 @@ from TestBuildingBlocks.test_setup import TestSetup
 
 
 class TestsSearchHelpAcronis(BaseTest):
-    @allure.testcase('https://perceptionpointtemp.testrail.io/index.php?/cases/view/2343')
+    @allure.testcase('https://amiel.testrail.io/index.php?/suites/view/1&group_by=cases:section_id&group_order=asc&display_deleted_cases=0&group_id=11')
     # issue in JIRA direct link(bugs+todo items)
     # issue:
     @allure.issue("https://perception-point.atlassian.net/browse/MS-8798")
     @allure.description('log to chrome and record video of the test')
     def test_search_help_acronis(self, setup_browser_page, read_non_secrets):
         page = setup_browser_page
+        page.pause()
         params_dictionary = read_non_secrets
 
         setup_tear_down_gui_operations = SetupTearDownGuiOperations(page, params_dictionary=params_dictionary,

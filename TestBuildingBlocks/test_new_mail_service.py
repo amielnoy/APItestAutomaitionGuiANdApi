@@ -2,7 +2,7 @@ import os
 
 from pages.EmailWizard.CompleteIntegration.complete_office365_configuration_page import \
     CompleteOffice365ConfigurationPage
-from pages.Settings.SettingsMainPage import SettingsMainPage
+from pages.Settings.settings_Main_page import SettingsMainPage
 from pages.EmailWizard.CompleteIntegration.complete_gmail_configuration_page import CompleteGmailConfigurationPage
 from pages.Settings.Colaboration.email_application_integrations_page import EmailApplicationIntegrationsPage
 from TestBuildingBlocks.SetupTearDownOperations.setup_teardown_api_operations import SetupTearDownApiOperations

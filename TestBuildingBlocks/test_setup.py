@@ -2,6 +2,7 @@ import os
 import time
 from tokenize import String
 
+from SetupTearDownOperations.setup_teardown_api_operations import SetupTearDownApiOperations
 from pages.BasePage import BasePage
 from pages.login import login
 from pages.xray_main_page import xrayInsightsMainPage
@@ -48,17 +49,17 @@ class TestSetup(BasePage):
         self.verify_url(base_url + 'insights')
 
     def get_organization_license_seats_number(self) -> String:
-        return SettingsOperations.get_organization_license_seats_number(self.organization_id, self.token_value,
+        return SetupTearDownApiOperations.get_organization_license_seats_number(self.organization_id, self.token_value,
                                                                         self.is_acronis)
 
     def delete_domain_by_id_of_domain(self):
-        SettingsOperations.delete_organization_domain_by_id_of_organization(self.organization_id, self.token_value)
+        SetupTearDownApiOperations.delete_organization_domain_by_id_of_organization(self.organization_id, self.token_value)
         time.sleep(5)
 
     def set_channel(self, new_channel_is_office365):
         if new_channel_is_office365:
-            SettingsOperations.set_channel(new_channel_is_office365=True, organization_id=self.organization_id,
+            SetupTearDownApiOperations.set_channel(new_channel_is_office365=True, organization_id=self.organization_id,
                                            token_value=self.token_value)
         else:
-            SettingsOperations.set_channel(new_channel_is_office365=False, organization_id=self.organization_id,
+            SetupTearDownApiOperations.set_channel(new_channel_is_office365=False, organization_id=self.organization_id,
                                            token_value=self.token_value)
