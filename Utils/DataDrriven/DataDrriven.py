@@ -18,14 +18,13 @@ def read_test_data_from_csv_to_list(file_full_path):
 
 
 def read_test_data_from_csv_to_dictionary(file_full_path):
-    test_data = {}
+    dict_array = []
     try:
-        with open(file_full_path, newline="") as csvfile:
-            data = csv.reader(csvfile, delimiter=",")
-            next(data)  # skip header row
-            for row in data:
-                test_data[row.split(',')[0]] = row
-        return test_data
+        with open(file_full_path, 'r') as data:
+            for line in csv.DictReader(data):
+                dict_array.append(line)
+
+        return dict_array
 
     except FileNotFoundError:
         print('File not found', file_full_path)

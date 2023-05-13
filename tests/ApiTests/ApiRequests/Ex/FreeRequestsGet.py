@@ -6,16 +6,51 @@ import requests
 from dotenv import load_dotenv
 from faker import Faker
 from TestBuildingBlocks.SetupTearDownOperations.setup_teardown_api_operations import SetupTearDownApiOperations
+from Utils.DataDrriven.DataDrriven import read_test_data_from_csv_to_dictionary
 from Utils.HttpRequests.base_http_requests import BaseHttpRequests
 from Utils.HttpRequests.http_requests_acronis import AcronisHttpRequests
+from Utils.Enviornment.enviornment_files_ops import get_envvars
+import csv
 
 load_dotenv(dotenv_path=r"D:\automaition_projects\annotations_trainval2017\PlayWright2023\enviornment\.env_ariel")
+def generate_dict_from_list(list):
+    # assuming that odd indexes have keys
+    # and even indexes have values
+    keys = list[0::2]
+    values = list[1::2]
+    tupels = zip(keys,values)
+    return dict(tupels)
+def go_back_to_root(root_dir_name):
+    my_file_dir = os.path.dirname(os.path.abspath(__file__))
+    dir_name = my_file_dir.split('\\')[-1]
+    while dir_name != root_dir_name and dir_name != '':
+        my_file_dir = os.path.dirname(my_file_dir)
+        dir_name = my_file_dir.split('\\')[-1]
+
+    if dir_name == root_dir_name:
+        return my_file_dir
+    raise Exception(f'cannot find root {dir_name} in path of file')
+
+def read_my_env(root_dir):
+    # we go 3 times up
+    project_root_path = go_back_to_root(root_dir)
+    env_non_secrets_file = project_root_path.as_posix() + '/enviornment/.non_secrets_env'
+    env_secrets_file = project_root_path.as_posix() + '/enviornment/.env'
+    # dotenv_path = Path('path/to/.env')
+    load_dotenv(dotenv_path=env_secrets_file)
+    env_non_secrets_dictionary = get_envvars(env_non_secrets_file)
+    yield env_non_secrets_dictionary
 
 
-def shorten(str):
-    if len(str) > 10:
-        return str[:10]
-    return str
+def fake_max_length(fake_func,max_str_len):
+    # takes a faker function fake_func wich generates a fake string
+    # retries until it manages to get a string with a smaller length than max
+    # length
+    fake_value = fake_func()
+    while len(fake_value) >= max_str_len:
+        fake_value = str(fake_func())
+    return fake_value
+
 def create_fakedata():
     fake = Faker()
     values = []
@@ -23,32 +58,34 @@ def create_fakedata():
     values.append(fake.last_name())
     values.append(fake.date_of_birth().strftime('%Y-%m-%d'))
     values.append(fake.email())
-    values.append(fake.phone_number())
-    values.append(fake.address())
-    values.append(fake.address())
+    values.append(fake_max_length(fake.phone_number,15))
+    values.append(fake_max_length(fake.address,40))
+    values.append(fake_max_length(fake.address,40))
     values.append(fake.city())
     values.append(fake.state())
     values.append(fake.postcode())
     values.append(fake.country())
-    short_values = [shorten(value) for value in values]
-    return short_values
+    values.append(201)
+    return values
 
-def setUpfakedata():
+def setUpfakedata(number_of_fakes):
     all_data = []
     keys = ['firstName','lastName','birthdate','email','phone','street1','street2',
-            'city','stateProvince','postalCode','country']
-    for i in range(30):
+            'city','stateProvince','postalCode','country','expected_status']
+
+    for i in range(number_of_fakes):
         values = create_fakedata()
         my_list_of_tupels = list(zip(keys,values))
         fake_data_dict = dict(my_list_of_tupels)
         all_data.append(fake_data_dict)
 
-    return all_data
+    my_file_dir = os.path.dirname(os.path.abspath(__file__))
+    my_csv_path = os.path.join(my_file_dir,'add_data.csv')
 
-def add_contact_data_for_test():
-    data = setUpfakedata()
-    test_data = [(data_dict, '201') for data_dict in data]
-    return test_data
+    with open(my_csv_path, 'w') as file:
+        writer = csv.DictWriter(file, fieldnames=keys)
+        writer.writeheader()
+        writer.writerows(all_data)
 
 
 class TestsRequests:
@@ -59,6 +96,8 @@ class TestsRequests:
     # USER1: test2@gmailbox.akjnhhk.xyz  :    MmnGy&$N2vBBsmgH7^6JNVJu
 
     token = None
+    Fake_data = None
+    csv_folder = r'D:\automaition_projects\APItestAutomaition\tests\ApiTests\ApiRequests\Ex'
 
     @pytest.fixture(autouse=True)
     @staticmethod
@@ -68,15 +107,18 @@ class TestsRequests:
             url = "https://thinking-tester-contact-list.herokuapp.com/users/login"
             payload = json.dumps({
                 "email": "ariel.tsesarsky@gmail.com",
-                # "password": "L6caQEBgrku6JQ3",
                 "password": os.environ['password']
             })
             response = BaseHttpRequests.http_post_request(url, json_body=payload)
             TestsRequests.token = response.json()['token']
 
 
-
-
+    @pytest.fixture(autouse=True)
+    @staticmethod
+    def setUpFakeData():
+        if TestsRequests.Fake_data == None:
+            setUpfakedata(3)
+            TestsRequests.Fake_data = True
 
 
     def test_requests_get(self, read_non_secrets):
@@ -93,9 +135,10 @@ class TestsRequests:
         assert organization_details_responce['address1'] == "", "ERROR I have a value!"
 
 
+
     def  test_free_get(self):
         base_url = 'https://api.testing.perception-point.io/'
-
+        csv_folder = r'D:\automaition_projects\APItestAutomaition\tests\ApiTests\ApiRequests\Ex'
         # response = requests.get(
         #     base_url + 'api/organizations/' + organization_id
         #     , headers={'Authorization': 'token ' + token_value})
@@ -116,31 +159,27 @@ class TestsRequests:
         for i in range(len(response)):
             assert response[i]['id'] == i+1 ,f"the id of response[{i}]['id'] is invalid.does not equal {i+1}"
 
-    @pytest.mark.parametrize('pokemon_name,response_code', [
-        # each element of this list will provide values for the
-        # topics "value_A" and "value_B" of the test and will
-        # generate a stand-alone test case.
-        ('alakazam', 200),
-        ('squirtle', 200),
-        ('charmamnder',404),
-        ('kabuki',404)
-    ])
-    def test_pokeapi(self,pokemon_name,response_code):
+    @pytest.mark.parametrize('data_dict', read_test_data_from_csv_to_dictionary
+        (csv_folder + '\pokemon.csv'))
+    def test_pokeapi(self,data_dict):
         url = 'https://pokeapi.co/'
-        suffix = 'api/v2/pokemon/'+ pokemon_name
+        suffix = 'api/v2/pokemon/'+ data_dict['Name']
         response = BaseHttpRequests.http_get_request(full_url=url+suffix)
-        assert response.status_code == response_code , f"problem with page returns {response.status_code}"
+        assert response.status_code == int(data_dict['Expected_status']) , f"problem with page returns {response.status_code}"
 
 
-    @pytest.mark.parametrize("new_contact_data,expected_status_code",add_contact_data_for_test())
-    def test_add_contact(self,new_contact_data,expected_status_code):
+    @pytest.mark.parametrize("test_dict",
+                             read_test_data_from_csv_to_dictionary(csv_folder+'\\add_data.csv'))
+    def test_add_contact(self,test_dict):
+        list1 = list(test_dict.items())[:11]
+        new_contact_data = dict(list1)
         url = 'https://thinking-tester-contact-list.herokuapp.com/contacts'
         my_token = self.token
         payload = json.dumps(new_contact_data)
         response = BaseHttpRequests.http_post_request(full_url=url,json_body=payload,token=my_token)
         # print(response.status_code)
         # print(response.text)
-        assert response.status_code == expected_status_code
+        assert response.status_code == int(test_dict['expected_status'])
 
     def test_add_contact_negative(self):
         url = 'https://thinking-tester-contact-list.herokuapp.com/contacts'
