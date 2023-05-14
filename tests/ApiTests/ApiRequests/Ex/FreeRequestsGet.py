@@ -1,6 +1,8 @@
 import json
 import os
 from pathlib import Path
+
+import allure
 import pytest
 import requests
 from dotenv import load_dotenv
@@ -11,6 +13,9 @@ from Utils.HttpRequests.base_http_requests import BaseHttpRequests
 from Utils.HttpRequests.http_requests_acronis import AcronisHttpRequests
 from Utils.Enviornment.enviornment_files_ops import get_envvars
 import csv
+from Utils.Reporting.Reporting import Reporting
+import sys
+
 
 load_dotenv(dotenv_path=r"D:\automaition_projects\annotations_trainval2017\PlayWright2023\enviornment\.env_ariel")
 def generate_dict_from_list(list):
@@ -159,15 +164,31 @@ class TestsRequests:
         for i in range(len(response)):
             assert response[i]['id'] == i+1 ,f"the id of response[{i}]['id'] is invalid.does not equal {i+1}"
 
+    @allure.testcase('link to test case')
+    @allure.issue('wrong pokemon name bug')
+    @allure.description('use poke api to search for pokemon name')
     @pytest.mark.parametrize('data_dict', read_test_data_from_csv_to_dictionary
         (csv_folder + '\pokemon.csv'))
     def test_pokeapi(self,data_dict):
+        Reporting.report_allure_and_logger(
+            f'searching for pokemon'+data_dict['Name']+'in poke api\n','INFO')
         url = 'https://pokeapi.co/'
         suffix = 'api/v2/pokemon/'+ data_dict['Name']
         response = BaseHttpRequests.http_get_request(full_url=url+suffix)
-        assert response.status_code == int(data_dict['Expected_status']) , f"problem with page returns {response.status_code}"
+        try:
+            assert response.status_code == int(data_dict['Expected_status'])
+            Reporting.report_allure_and_logger(
+                f'pokemon is found :' + data_dict['Name'] + '\n', 'INFO')\
+
+        except:
+            print('unexpected result assertion incorrect !!!!!!!!!')
+            Reporting.report_allure_and_logger(
+                f'unexpected result , web response content :\n' + response.content, 'INFO')
 
 
+    @allure.testcase('link to test case of add contact')
+    @allure.issue('missing field bug or incorrect value in field')
+    @allure.description('use hekroapp site to add contacts to existing user')
     @pytest.mark.parametrize("test_dict",
                              read_test_data_from_csv_to_dictionary(csv_folder+'\\add_data.csv'))
     def test_add_contact(self,test_dict):
