@@ -175,15 +175,19 @@ class TestsRequests:
         url = 'https://pokeapi.co/'
         suffix = 'api/v2/pokemon/'+ data_dict['Name']
         response = BaseHttpRequests.http_get_request(full_url=url+suffix)
-        try:
-            assert response.status_code == int(data_dict['Expected_status'])
-            Reporting.report_allure_and_logger(
-                f'pokemon is found :' + data_dict['Name'] + '\n', 'INFO')\
+        # try:
+        assert response.status_code == int(data_dict['Expected_status']),'unexpected result assertion incorrect !!!!!!!!!'
+            # Reporting.report_allure_and_logger(
+            #     f'pokemon is found :' + data_dict['Name'] + '\n', 'INFO')\
 
-        except:
-            print('unexpected result assertion incorrect !!!!!!!!!')
-            Reporting.report_allure_and_logger(
-                f'unexpected result , web response content :\n' + response.content, 'INFO')
+        # except:
+        #     exc_type, exc_value, exc_traceback = sys.exc_info()
+        #     print('unexpected result assertion incorrect !!!!!!!!!')
+        #     Reporting.report_allure_and_logger(
+        #         f'unexpected result , web response content :\n' + str(response.content), 'INFO')
+        #     raise exc_type(exc_value).with_traceback(exc_traceback)
+
+
 
 
     @allure.testcase('link to test case of add contact')
