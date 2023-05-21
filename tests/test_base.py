@@ -26,7 +26,7 @@ class BaseTest:
         return page.title()
 
     @classmethod
-    def get_non_secrets(cls, non_secrets_file_name, secrets_file_name):
+    def get_non_secrets_and_secrets(cls, non_secrets_file_name, secrets_file_name):
         conftest_file_path_parent = os.path.dirname(os.path.abspath(__file__))
         tests_directory_path = Path(conftest_file_path_parent)
         project_root_path = tests_directory_path.parent.absolute()
