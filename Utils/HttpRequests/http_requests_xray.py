@@ -7,7 +7,7 @@ from test_base import BaseTest
 
 
 class XrayHttpRequests(BaseHttpRequests):
-    params_dictionary = BaseTest.get_non_secrets(BaseHttpRequests.non_secrets_file_name,
+    params_dictionary = BaseTest.get_non_secrets_and_secrets(BaseHttpRequests.non_secrets_file_name,
                                                  BaseHttpRequests.secrets_file_name)
     base_url = params_dictionary.get('XRAY_BASE_URL')
     orgnization_id = params_dictionary.get('XRAY_ORGANIZATION_ID')

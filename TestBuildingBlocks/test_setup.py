@@ -2,7 +2,7 @@ import os
 import time
 from tokenize import String
 
-from SetupTearDownOperations.setup_teardown_api_operations import SetupTearDownApiOperations
+from TestBuildingBlocks.SetupTearDownOperations.setup_teardown_api_operations import SetupTearDownApiOperations
 from pages.BasePage import BasePage
 from pages.login import login
 from pages.xray_main_page import xrayInsightsMainPage
