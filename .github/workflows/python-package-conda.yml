@@ -33,12 +33,18 @@ jobs:
     - name: Test with pytest
       run: |
         conda install pytest
-        python3 -m pytest tests --alluredir=allure-report
+        python3 -m pytest tests --alluredir=./allure-results
         
-    - name: Get Allure history
-      uses: actions/checkout@v2
-      if: always()
-      continue-on-error: true
+    - name: Set up Allure
+      uses: allure-framework/allure2-github-action@v2
       with:
-        ref: gh-pages
-        path: gh-pages    
+          allure-version: 2.13.9
+
+    - name: Generate Allure report
+      run: allure generate ./allure-results --clean -o ./allure-report
+
+    - name: Publish report to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
