@@ -34,3 +34,11 @@ jobs:
       run: |
         conda install pytest
         python3 -m pytest tests
+        
+    - name: Get Allure history
+      uses: actions/checkout@v2
+      if: always()
+       continue-on-error: true
+     with:
+       ref: gh-pages
+       path: gh-pages    
