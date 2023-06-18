@@ -33,7 +33,7 @@ jobs:
     - name: Test with pytest
       run: |
         conda install pytest
-        python3 -m pytest tests
+        python3 -m pytest tests --alluredir=allure-report
         
     - name: Get Allure history
       uses: actions/checkout@v2
