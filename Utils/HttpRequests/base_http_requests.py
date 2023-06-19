@@ -18,7 +18,7 @@ class BaseHttpRequests:
 
         return {'Authorization': 'Bearer ' + token}
 
-    @staticmethod #??? duplicate function
+    @staticmethod  # ??? duplicate function
     def http_delete_request(base_url, url_suffix, organization_id=organization_id, token_value=token_value):
         response = requests.delete(
             base_url
@@ -44,7 +44,7 @@ class BaseHttpRequests:
             )
             return response
 
-    @staticmethod # ??? two duplicate functions
+    @staticmethod  # ??? two duplicate functions
     def http_delete_request(base_url, url_suffix, organization_id=organization_id, token_value=token_value):
         if token_value != '':
             response = requests.delete(
@@ -65,8 +65,8 @@ class BaseHttpRequests:
         response = requests.get(
             BaseHttpRequests.base_url_pp + url_suffix
             , headers=BaseHttpRequests.get_headers(token=token_value))
-        #print('organization_domains=')
-        #print(response.json())
+        # print('organization_domains=')
+        # print(response.json())
         return response
 
     @staticmethod
@@ -75,28 +75,29 @@ class BaseHttpRequests:
             BaseHttpRequests.base_url_pp
             + url_suffix
             , headers=BaseHttpRequests.get_headers(token=token_value))
-        #print('organization_domains=')
-        #print(response.json())
+        # print('organization_domains=')
+        # print(response.json())
         return response
 
     @staticmethod
-    def http_get_request(full_url='', params=default_params, token_value='',headers=''):
+    def http_get_request(full_url='', params=default_params, token_value='', headers=''):
         if headers == '':
             headers = BaseHttpRequests.get_headers(token=token_value)
         response = requests.get(
-           full_url,params=params
+            full_url, params=params
             , headers=headers)
-        #print('organization_domains=')
-        #print(response.json())
+        # print('organization_domains=')
+        # print(response.json())
         return response
 
-    @staticmethod # method without token
-    def http_post_request(full_url, json_body,token = ''):
+    @staticmethod  # method without token
+    def http_post_request(base_url, suffix, json_body, token=''):
         headers = {
             'Content-Type': 'application/json',
         }
         if token != '':
             headers.update(BaseHttpRequests.get_headers(token))
+        full_url = base_url + json_body
         response = requests.request("POST", full_url, headers=headers, data=json_body)
         # print('organization_domains=')
         # print(response.json())
@@ -117,8 +118,6 @@ class BaseHttpRequests:
         # print('organization_domains=')
         # print(response.json())
         return response
-
-
 
     @staticmethod
     def http_put_request(url_prefix, json_body='', token_value=''):

@@ -33,6 +33,16 @@ class AcronisHttpRequests(BaseHttpRequests):
         return response.json()
 
     @staticmethod
+    def http_get_request_without_headers(base_url, url_suffix=''):
+        response = requests.get(
+            url=base_url + url_suffix)
+        # headers = {'Authorization': 'token ' + AcronisHttpRequests.token_value}
+
+        # print('organization_domains=')
+        # print(response.json())
+        return response.json()
+
+    @staticmethod
     def http_get_request_without_token(base_url, url_suffix=''):
         response = requests.get(
             url=base_url + url_suffix
@@ -44,7 +54,7 @@ class AcronisHttpRequests(BaseHttpRequests):
         return response.json()
 
     @staticmethod
-    def http_post_request(base_url):
+    def http_post_request_pp(base_url):
         response = requests.get(
             base_url + '/api/v1/users/organization-domains/?organization_id='
             + AcronisHttpRequests.organization_id
@@ -55,12 +65,40 @@ class AcronisHttpRequests(BaseHttpRequests):
         return response.json()
 
     @staticmethod
-    def http_put_request(base_url):
-        response = requests.get(
-            base_url
-            + '/api/v1/users/organization-domains/?organization_id='
-            + AcronisHttpRequests.organization_id
-            , headers={'Authorization': 'token ' + AcronisHttpRequests.token_value})
-        print('organization_domains=')
-        print(response.json())
+    def http_post_request(base_url, suffix, json_body):
+        response = requests.request(
+            "POST"
+            , base_url + suffix
+            , data=json_body)
+        assert response.status_code == 200 or response.status_code == 201
+        # print('organization_domains=')
+        # print(response.json())
         return response.json()
+
+    @staticmethod
+    def http_post_request(base_url, suffix, json_body, headers=''):
+        response = requests.request(
+            "POST"
+            , base_url + suffix
+            , data=json_body
+            , headers=headers)
+        assert response.status_code == 200 or response.status_code == 201
+        # print('organization_domains=')
+        # print(response.json())
+        return response.json()
+
+    @staticmethod
+    def http_post_request_with_params(base_url, suffix, params, headers=''):
+        response = requests.request(
+            "POST"
+            , base_url + suffix
+            , params=params
+            , headers=headers)
+        assert response.status_code == 200 or response.status_code == 201
+        # print('organization_domains=')
+        # print(response.json())
+        return response.json()
+
+
+
+

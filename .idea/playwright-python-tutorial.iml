@@ -17,7 +17,7 @@
       <excludeFolder url="file://$MODULE_DIR$/videos" />
       <excludeFolder url="file://$MODULE_DIR$/pythonProject" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (APItestAutomaition)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
