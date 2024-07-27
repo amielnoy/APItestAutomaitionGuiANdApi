@@ -8,7 +8,7 @@
 
 import allure
 
-from Google.google_page import GooglePage
+from pages.Google.google_page import GooglePage
 from TestBuildingBlocks.SetupTearDownOperations.setup_teardown_gui_operations import SetupTearDownGuiOperations
 from TestBuildingBlocks.test_help_pages import TestHelpPages
 from test_base import BaseTest
@@ -23,7 +23,7 @@ class TestsSearchGoogle(BaseTest):
     @allure.description('log to chrome and record video of the test')
     def test_search_google(self, setup_page2, read_non_secrets):
         page = setup_page2
-        #page.pause()
+        page.pause()
         params_dictionary = read_non_secrets
 
         #setup_tear_down_gui_operations = SetupTearDownGuiOperations(page, params_dictionary=params_dictionary,

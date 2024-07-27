@@ -1,3 +1,7 @@
+import json
+
+import requests
+
 from SetupTearDownOperations.setup_teardown_api_operations import SetupTearDownApiOperations
 
 
@@ -22,3 +26,28 @@ class TestsRequests:
         # organization_details_before = setup_tear_down_api_operations.get_current_organization_license_seats_number()
         # setup_tear_down_api_operations.delete_current_domain_by_id_of_domain()
         # setup_tear_down_api_operations.set_current_channel(new_channel_is_office365=False)
+    def test_paypal_post(self):
+        base_url = "https://api-m.sandbox.paypal.com"
+        url = base_url + "/v2/checkout/orders"
+
+        payload = json.dumps({
+            "intent": "CAPTURE",
+            "purchase_units": [
+                {
+                    "amount": {
+                        "currency_code": "USD",
+                        "value": "100.00"
+                    }
+                }
+            ]
+        })
+        prefer_representation_detailes='return=representation'
+        headers = {
+            'Content-Type': 'application/json',
+            'Prefer': prefer_representation_detailes,
+            'PayPal-Request-Id': '20fa2104-9fb4-4235-ba9a-9ef87ff72eb8'
+        }
+
+        response = requests.post(url, headers=headers, data=payload)
+
+        print(response.text)

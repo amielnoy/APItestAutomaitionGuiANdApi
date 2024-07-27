@@ -12,7 +12,7 @@ from pages.BasePage import BasePage
 
 class NewMailServiceWizardPage(BasePage):
 
-    def __init__(self, page, is_xray):
+    def __init__(self, page):
         self.page = page
         self.connect_new_service = page.locator("text=Add a New Service")
 
@@ -20,8 +20,6 @@ class NewMailServiceWizardPage(BasePage):
 
         self.check_office365_service = page.locator("label").filter(has_text="Office365")
         self.check_gmail_service = page.locator("label").filter(has_text="Gmail")
-        # page.locator("id=email-service-option-Gmail")
-
         super().__init__(self.page, "")
 
     @allure.step("Setting organization name")

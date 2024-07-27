@@ -8,14 +8,14 @@ from Utils.Reporting.Reporting import Reporting
 from pages.BasePage import BasePage
 
 
-class login(BasePage):
+class GooglePage(BasePage):
     url = ""
 
     def __init__(self, page, base_url):
         self.page = page
-        self.login_user = page.locator("[placeholder=\"yours\\@example\\.com\"]")
-        self.login_password = page.locator("[placeholder=\"your\\ password\"]")
-        self.login_button = page.locator("[aria-label=\"Log\\ In\"]")
+        self.search = page.locator("id=APjFqb")
+        self.search_button = page.locator(".QCzoEc > svg")
+        self.google_image = page.get_by_role("img", name="Google")
         self.url = base_url
         super().__init__(self.page, self.url)
 
@@ -24,17 +24,21 @@ class login(BasePage):
         Reporting.report_allure_and_logger("INFO", "Navigating to login page=" + self.url)
         self.navigate_to_url()
 
-    @allure.step("user logged in with USERNAME={1}")
-    def set_user(self, username):
-        self.login_user.fill("")
-        self.login_user.fill(username)
-        Reporting.report_allure_and_logger("INFO", f"finished setting USERNAME={username}")
+    @allure.step("Setting value search google")
+    def set_search(self, search_string):
+        self.search.fill(search_string)
 
-    @allure.step("user logged in with PASSWORD={1}")
-    def set_pass(self, password):
-        self.login_password.fill("")
-        self.login_password.fill(password)
-        Reporting.report_allure_and_logger("INFO", "finished setting PASSWORD=" + password)
+        Reporting.report_allure_and_logger("INFO", f"finished setting Search String to google search={search_string}")
+    @allure.step("click google search")
+    def click_enter_on_google_search(self):
+        self.search.click()
+        self.page.keyboard.press("Enter")
+        Reporting.report_allure_and_logger("INFO", "finished clicking enter on google search")
+
+    @allure.step("click google image")
+    def click_google_image(self):
+        self.google_image.click()
+        Reporting.report_allure_and_logger("INFO", "finished clicking google image")
 
     @allure.step("click login action(after setting user+pass)")
     def click_login_button(self):

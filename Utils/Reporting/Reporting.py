@@ -15,8 +15,6 @@ class Reporting:
         # TODO create screan shot under the new folder
         time_stamp = Time.get_current_time().replace(":", "_")
         test_screenshot_path = "test_output/screenshots/screenshot_" + testname + "_" + time_stamp + ".png"
-        # page.screenshot(path=test_screenshot_path, full_page=True)
-        # test_screenshot_path = '/home/amielnoyfeld/PycharmProjects/playwright-python-xray-POC/screenshots/screenshot_test_email_wizard_office365_acronis_09_46_11.png'
         allure.attach(page.screenshot(path=test_screenshot_path, full_page=True), name="regular screenshot/Failure "
                                                                                        "screenshot if FAILED)",
                       attachment_type=AttachmentType.PNG)

@@ -8,7 +8,7 @@
 
 import allure
 
-from Google.google_page import GooglePage
+from pages.Google.google_page import GooglePage
 from TestBuildingBlocks.SetupTearDownOperations.setup_teardown_gui_operations import SetupTearDownGuiOperations
 from TestBuildingBlocks.test_help_pages import TestHelpPages
 from test_base import BaseTest
@@ -28,15 +28,19 @@ class TestsSearchGoogle(BaseTest):
 
         #setup_tear_down_gui_operations = SetupTearDownGuiOperations(page, params_dictionary=params_dictionary,
         #                                                             is_acronis=True)
-        google= GooglePage(page,"http://google.co.il")
+        google_url_value=params_dictionary['GOOGLE_URL']
+        google_search_string=params_dictionary['GOOGLE_SEARCH_STRING']
+
+        google= GooglePage(page , base_url=google_url_value)
         google.load()
-        google.set_search("chat gpt")
+        google.set_search(google_search_string)
         #page.pause()
         google.click_google_image()
         google.click_enter_on_google_search()
 
-
-        assert google.url,"https://www.google.co.il/"
+        assert False
+        #assert google.url,params_dictionary['GOOGLE_SEARCH_RESULT_URL']+"error"
+        print("hello")
         #
         # my_test_help_pages = TestHelpPages(params_dictionary=params_dictionary, is_acronis=True)
         # my_test_help_pages.test_main_help_page(page, is_menu_help=True)

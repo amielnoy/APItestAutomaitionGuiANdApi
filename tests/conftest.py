@@ -249,3 +249,70 @@ def setup_data_driven_login(playwright: Playwright, request) -> None:
     logger.info("**********************************************************************************")
     logger.info("***********FINISHING********** TEST: " + testname + "*********************************")
     logger.info("**********************************************************************************")
+
+
+@pytest.fixture(scope="function")
+def setup_page2(playwright: Playwright, request) -> None:
+    testname = request.node.name
+    logger = LogManager().get_logger_instance()
+    logger.info("**********************************************************************************")
+    logger.info("**********************STARTING TEST**** " + testname + "**************************")
+    logger.info("**********************************************************************************")
+    # browser = playwright.webkit.launch(headless=False)
+
+    my_record_video_dir = testname + "_" + Time.get_current_date_time()
+
+    current_date = Time.get_current_date()
+    Path("videos/" + current_date).mkdir(parents=True, exist_ok=True)
+    current_hour = Time.get_current_time().split('_')[0]
+    Path("videos/" + current_date + '/' + current_hour).mkdir(parents=True, exist_ok=True)
+    my_record_video_dir = "videos/" + current_date + '/' + current_hour + '/' + my_record_video_dir
+    Path(my_record_video_dir).mkdir(parents=True, exist_ok=True)
+    browser = playwright.chromium.launch(headless=False)
+
+    # conftest_file_path_parent = os.path.dirname(os.path.abspath(__file__))
+    # project_root_path = Path(conftest_file_path_parent)
+    context = browser.new_context(record_video_dir=my_record_video_dir)
+    # context.tracing.start(screenshots=True, snapshots=True, sources=True)
+    page = context.new_page()
+    failed_before = request.session.testsfailed
+
+    yield page
+
+    conftest_file_path_parent = os.path.dirname(os.path.abspath(__file__))
+    project_root_path = Path(conftest_file_path_parent)
+    log_file_path = os.path.join(project_root_path.parent, "test_output/TestLogs/tests.log")
+    # log_file_path="/home/amielnoyfeld/PycharmProjects/playwright-python-xray-POC/TestLogs/tests.log"
+    allure.attach.file(log_file_path, "tests log file", allure.attachment_type.TEXT)
+
+    # storage = context.storage_state(path=str(project_root_path.parent) + "/TestData/state.json")
+    # print("saved new login session storage=")
+    # print(storage)
+    # browser is still open !!
+    if not page.is_closed():
+        current_path_name = context.pages[0].video.path()
+        print("videoPath=" + current_path_name)
+    else:
+        Reporting.report_allure_and_logger("INFO", "Browser already closed no video or screenshot SORRY!")
+
+    # updated_video_path = os.path.join(current_path_name, f'{request.node.originalname}_{browser_name}.webm')
+    # ONLY now the video exists!!!
+    if request.session.testsfailed == 1:
+        print("\nTest failed=" + testname)
+        # testname = request.session.testsfailed
+        if not page.is_closed():
+            Reporting.take_screenshot_and_add_to_report(page, str(testname))
+
+    # browser.close()
+    video_path = page.video.path()
+    # browser.close()
+    # context.close()
+    page.context.close()
+    if request.session.testsfailed != failed_before:
+        allure.attach.file(video_path, "video", allure.attachment_type.WEBM)
+    # page.close()
+    # context.tracing.stop(path="trace.zip")
+    os.rename(current_path_name, my_record_video_dir + '/' + testname + '.webm')
+    logger.info("**********************************************************************************")
+    logger.info("***********FINISHING********** TEST: " + testname + "*********************************")
+    logger.info("**********************************************************************************")
