@@ -2,7 +2,7 @@ attrs==23.2.0
 certifi
 charset-normalizer==3.3.2
 execnet
-idna==3.4
+idna==3.7
 iniconfig
 packaging==24.1
 playwright==1.45.1
@@ -17,7 +17,7 @@ pytest-forked
 pytest-playwright==0.5.1
 pytest-xdist==3.6.1
 python-slugify==8.0.4
-requests==2.28.1
+requests==2.32.3
 text-unidecode
 toml
 tomli
