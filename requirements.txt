@@ -1,4 +1,4 @@
-attrs
+attrs==23.2.0
 certifi
 charset-normalizer==3.3.2
 execnet
@@ -8,15 +8,15 @@ packaging==24.1
 playwright==1.45.1
 pluggy==1.5.0
 py
-pyee==9.0.4
-pyparsing
-pytest==7.2.0
-allure-pytest
-pytest-base-url
+pyee==11.1.0
+pyparsing==3.1.2
+pytest==8.3.2
+allure-pytest==2.13.5
+pytest-base-url==2.1.0
 pytest-forked
-pytest-playwright
-pytest-xdist
-python-slugify
+pytest-playwright==0.5.1
+pytest-xdist==3.6.1
+python-slugify==8.0.4
 requests==2.28.1
 text-unidecode
 toml
@@ -30,6 +30,6 @@ configparser==7.0.0
 python-dotenv==1.0.1
 greenlet
 
-boto3~=1.26.23
-elasticsearch
+boto3==1.34.149
+elasticsearch==8.14.0
 yagmail~=0.15.293
